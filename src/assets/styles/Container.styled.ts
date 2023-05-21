@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 type PropsType = {
-    justifyContent: string
+    justifyContent?: string
+    flexDirection? : string
 }
 
 export const Container = styled.div<PropsType>`
@@ -11,5 +12,6 @@ export const Container = styled.div<PropsType>`
   display: flex;
   align-items: center;
   justify-content: ${props => props.justifyContent};
+  flex-direction: ${props => props.flexDirection};
   border: 1px solid;
 `

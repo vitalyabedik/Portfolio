@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './Skill.module.css'
+import {SkillContainer, SkillDescription, SkillIcon} from './Skill.styled';
 
 type PropsType = {
     icon: string
@@ -10,11 +10,11 @@ type PropsType = {
 
 export const Skill: React.FC<PropsType> = ({icon, title, description}) => {
     return (
-        <div className={styles.skill}>
-            <div className={styles.icon}>{icon}</div>
+        <SkillContainer>
+            <SkillIcon>{icon}</SkillIcon>
             <h3>{title}</h3>
-            <div className={styles.description}>{description}</div>
-        </div>
+            <SkillDescription>{description}</SkillDescription>
+        </SkillContainer>
     );
 };
 
