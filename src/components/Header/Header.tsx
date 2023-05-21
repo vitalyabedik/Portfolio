@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {MainContainer} from '../../assets/styles/MainContainer.styled';
+import {Container} from '../../assets/styles/Container.styled';
 import {HeaderContainer} from './Header.styled';
 
 import {Nav} from '../Nav';
@@ -8,9 +8,9 @@ import {Nav} from '../Nav';
 export const Header = () => {
     return (
         <HeaderContainer>
-            <MainContainer justifyContent="flex-end">
+            <Container justifyContent="flex-end">
                 <Nav/>
-            </MainContainer>
+            </Container>
         </HeaderContainer>
     );
 };

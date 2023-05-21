@@ -4,7 +4,7 @@ type PropsType = {
     justifyContent: string
 }
 
-export const MainContainer = styled.div<PropsType>`
+export const Container = styled.div<PropsType>`
   width: 80%;
   height: 100%;
   margin: 0 auto;

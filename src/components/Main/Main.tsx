@@ -1,20 +1,21 @@
 import React from 'react';
 
-import styles from './Main.module.css'
-import stylesContainer from '../../assets/styles/Container.module.css'
+import {Container} from '../../assets/styles/Container.styled';
+import {Greeting, MainContainer, Photo} from './Main.styled';
 
 export const Main = () => {
     return (
-        <div className={styles.mainBlock}>
-            <div className={stylesContainer.container}>
-                <div className={styles.greeting}>
+        <MainContainer>
+            <Container justifyContent="space-around">
+                <Greeting>
                     <span>Hi There</span>
                     <h1>I am Vitali Bedik</h1>
                     <p>Frontend Developer</p>
-                </div>
-                <div className={styles.photo}></div>
-            </div>
-        </div>
+                </Greeting>
+                <Photo></Photo>
+            </Container>
+        </MainContainer>
+
     );
 };
 
