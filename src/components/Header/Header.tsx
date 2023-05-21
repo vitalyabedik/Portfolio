@@ -1,14 +1,17 @@
 import React from 'react';
 
-import styles from './Header.module.css'
+import {MainContainer} from '../../assets/styles/MainContainer.styled';
+import {HeaderContainer} from './Header.styled';
 
 import {Nav} from '../Nav';
 
 export const Header = () => {
     return (
-        <div className={styles.header}>
-            <Nav/>
-        </div>
+        <HeaderContainer>
+            <MainContainer justifyContent="flex-end">
+                <Nav/>
+            </MainContainer>
+        </HeaderContainer>
     );
 };
 
