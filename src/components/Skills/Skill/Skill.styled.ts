@@ -16,6 +16,14 @@ export const SkillIcon = styled.div`
   background-color: #EEEEF5;
 `
 
-export const SkillDescription = styled.div`
+export const SkillTitle = styled.h3`
+  padding: 20px 0;
+  background-color: #9e9ea2;
+`
 
+export const SkillDescription = styled.div`
+  border: solid 1px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  background-color: #c8c8cb;
 `

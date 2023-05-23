@@ -1,17 +1,17 @@
 import styled from 'styled-components';
 
-export const SkillsContainer = styled.div`
+export const ProjectsContainer = styled.div`
   //height: 100vh;
-  background-color: #D4FFC0;
+  background-color: #c3a0cc;
   padding: 100px 0;
 `
 
-export const SkillsTitle = styled.div`
+export const ProjectsTitle = styled.div`
   background-color: #9e9ea2;
   margin-bottom: 60px;
 `
 
-export const SkillsBlock = styled.div`
+export const ProjectsBlock = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
