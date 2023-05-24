@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const ContactFormContainer = styled.div`
   //height: 100vh;
-  background-color: #c3a0cc;
+  background-color: #4eb68b;
   padding: 100px 0;
 `
 
@@ -13,7 +13,8 @@ export const ContactFormTitle = styled.h2`
 
 export const Form = styled.form`
   background-color: #FFFFFFFF;
-  width: 350px;
+  width: 40%;
+  //width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;

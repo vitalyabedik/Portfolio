@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const HireMeContainer = styled.div`
   //height: 100vh;
-  background-color: #c3a0cc;
+  background-color: #779caa;
   padding: 100px 0;
 `
 
