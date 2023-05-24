@@ -15,7 +15,6 @@ export const Main = () => {
                 <Photo></Photo>
             </Container>
         </MainContainer>
-
     );
 };
 
