@@ -1,9 +1,18 @@
 import styled from 'styled-components';
 
+export const HeaderWrapper = styled.div`
+  background-color: #99d0fb;
+`
+
 export const HeaderContainer = styled.div`
   height: 80px;
-  background-color: #99d0fb;
   display: flex;
+  width: 100%;
   justify-content: flex-end;
   align-items: center;
+
+  @media (max-width: 360px) {
+    width: 100%;
+    justify-content: space-between;
+  }
 `
