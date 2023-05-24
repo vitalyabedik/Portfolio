@@ -1,9 +1,15 @@
 import styled from 'styled-components';
 
-export const ContactFormContainer = styled.div`
+export const ContactFormWrapper = styled.div`
   //height: 100vh;
   background-color: #4eb68b;
   padding: 100px 0;
+`
+
+export const ContactFormContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `
 
 export const ContactFormTitle = styled.h2`
@@ -13,8 +19,7 @@ export const ContactFormTitle = styled.h2`
 
 export const Form = styled.form`
   background-color: #FFFFFFFF;
-  width: 40%;
-  //width: 350px;
+  width: 360px;
   display: flex;
   flex-direction: column;
   align-items: center;

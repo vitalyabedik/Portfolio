@@ -2,7 +2,7 @@ import React from 'react';
 
 import {
     ContactFormContainer,
-    ContactFormTitle,
+    ContactFormTitle, ContactFormWrapper,
     EmailField,
     Form,
     MessageField,
@@ -14,17 +14,19 @@ import {Container} from '../../assets/styles/Container.styled';
 export const ContactForm = () => {
 
     return (
-        <ContactFormContainer>
-            <Container flexDirection="column">
-                <ContactFormTitle>Contacts</ContactFormTitle>
-                <Form>
-                    <NameField placeholder="Your name"/>
-                    <EmailField placeholder="Your email" type="email"/>
-                    <MessageField placeholder="Your message" />
-                </Form>
-                <SubmitButton type="submit" value="Submit"/>
+        <ContactFormWrapper>
+            <Container>
+                <ContactFormContainer>
+                    <ContactFormTitle>Contacts</ContactFormTitle>
+                    <Form>
+                        <NameField placeholder="Your name"/>
+                        <EmailField placeholder="Your email" type="email"/>
+                        <MessageField placeholder="Your message"/>
+                    </Form>
+                    <SubmitButton type="submit" value="Submit"/>
+                </ContactFormContainer>
             </Container>
-        </ContactFormContainer>
+        </ContactFormWrapper>
     );
 };
 
