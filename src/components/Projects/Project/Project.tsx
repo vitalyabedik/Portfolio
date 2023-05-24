@@ -18,7 +18,7 @@ type PropsType = {
 export const Project: React.FC<PropsType> = ({image, title, description}) => {
     return (
         <ProjectContainer>
-            <ProjectImage backgroundImage={image}>
+            <ProjectImage backgroundimage={image}>
                 <ProjectLink>See project</ProjectLink>
             </ProjectImage>
             <ProjectInfo>

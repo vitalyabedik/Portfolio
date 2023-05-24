@@ -7,7 +7,7 @@ export const Footer = () => {
 
     return (
         <FooterWrapper>
-            <Container flexDirection="column">
+            <Container>
                 <FooterContainer>
                     <FooterTitle>Vitali Bedik</FooterTitle>
                     <FooterContacts>

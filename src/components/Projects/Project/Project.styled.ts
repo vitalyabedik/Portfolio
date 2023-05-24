@@ -8,7 +8,7 @@ export const ProjectContainer = styled.div`
 `
 
 type ProjectImagePropsType = {
-  backgroundImage: string
+  backgroundimage: string
 }
 
 export const ProjectImage = styled.div<ProjectImagePropsType>`
@@ -18,7 +18,7 @@ export const ProjectImage = styled.div<ProjectImagePropsType>`
   height: 200px;
   width: 100%;
   background-color: #9e9ea2;
-  background-image: url(${props => props.backgroundImage});
+  background-image: url(${props => props.backgroundimage});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;

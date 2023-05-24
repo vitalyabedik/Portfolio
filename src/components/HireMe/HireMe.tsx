@@ -7,7 +7,7 @@ export const HireMe = () => {
 
     return (
         <HireMeWrapper>
-            <Container flexDirection="column">
+            <Container>
                 <HireMeContainer>
                     <HireMeTitle>I am available for remote work!</HireMeTitle>
                     <HireMeLink>Hire me</HireMeLink>
