@@ -14,6 +14,10 @@ export const Container = styled.div<PropsType>`
   @media (max-width: 360px) {
     width: 100%;
   }
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `
 
 // export const Container = styled.div<PropsType>`
