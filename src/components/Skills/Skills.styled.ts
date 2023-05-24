@@ -6,7 +6,7 @@ export const SkillsContainer = styled.div`
   padding: 100px 0;
 `
 
-export const SkillsTitle = styled.div`
+export const SkillsTitle = styled.h2`
   background-color: #9e9ea2;
   margin-bottom: 60px;
 `

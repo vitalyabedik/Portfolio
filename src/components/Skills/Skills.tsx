@@ -13,7 +13,7 @@ export const Skills = () => {
     return (
         <SkillsContainer>
             <Container flexDirection='column' >
-                <SkillsTitle><h2>Skills</h2></SkillsTitle>
+                <SkillsTitle>Skills</SkillsTitle>
                 <SkillsBlock>
                     <Skill title="JS" description={testDescription} icon=""/>
                     <Skill title="HTML" description={testDescription} icon=""/>

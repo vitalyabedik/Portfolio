@@ -11,7 +11,7 @@ export const Projects = () => {
     return (
         <ProjectsContainer>
             <Container flexDirection='column' >
-                <ProjectsTitle><h2>Projects</h2></ProjectsTitle>
+                <ProjectsTitle>Projects</ProjectsTitle>
                 <ProjectsBlock>
                     <Project title="Project name" description={projectDescription} image={projectImage}/>
                     <Project title="Project name" description={projectDescription} image={projectImage}/>

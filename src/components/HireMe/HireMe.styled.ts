@@ -6,7 +6,7 @@ export const HireMeContainer = styled.div`
   padding: 100px 0;
 `
 
-export const HireMeTitle = styled.div`
+export const HireMeTitle = styled.h2`
   background-color: #9e9ea2;
   margin-bottom: 60px;
 `

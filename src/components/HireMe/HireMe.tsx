@@ -8,7 +8,7 @@ export const HireMe = () => {
     return (
         <HireMeContainer>
             <Container flexDirection="column">
-                <HireMeTitle><h2>I am available for remote work!</h2></HireMeTitle>
+                <HireMeTitle>I am available for remote work!</HireMeTitle>
                 <HireMeLink>Hire me</HireMeLink>
             </Container>
         </HireMeContainer>

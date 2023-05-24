@@ -6,7 +6,7 @@ export const ProjectsContainer = styled.div`
   padding: 100px 0;
 `
 
-export const ProjectsTitle = styled.div`
+export const ProjectsTitle = styled.h2`
   background-color: #9e9ea2;
   margin-bottom: 60px;
 `
