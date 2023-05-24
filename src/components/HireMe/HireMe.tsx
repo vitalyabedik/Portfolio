@@ -1,17 +1,19 @@
 import React from 'react';
 
-import {HireMeContainer, HireMeLink, HireMeTitle} from './HireMe.styled';
+import {HireMeContainer, HireMeLink, HireMeTitle, HireMeWrapper} from './HireMe.styled';
 import {Container} from '../../assets/styles/Container.styled';
 
 export const HireMe = () => {
 
     return (
-        <HireMeContainer>
+        <HireMeWrapper>
             <Container flexDirection="column">
-                <HireMeTitle>I am available for remote work!</HireMeTitle>
-                <HireMeLink>Hire me</HireMeLink>
+                <HireMeContainer>
+                    <HireMeTitle>I am available for remote work!</HireMeTitle>
+                    <HireMeLink>Hire me</HireMeLink>
+                </HireMeContainer>
             </Container>
-        </HireMeContainer>
+        </HireMeWrapper>
     );
 };
 
