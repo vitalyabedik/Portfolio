@@ -8,7 +8,7 @@ export const ProjectContainer = styled.div`
 `
 
 type ProjectImagePropsType = {
-  backgroundimage: string
+    backgroundimage: string
 }
 
 export const ProjectImage = styled.div<ProjectImagePropsType>`
@@ -37,7 +37,7 @@ export const ProjectInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
+
 `
 
 export const ProjectTitle = styled.h3`

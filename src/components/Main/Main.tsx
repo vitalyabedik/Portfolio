@@ -10,7 +10,7 @@ export const Main = () => {
                 <MainContainer>
                     <Greeting>
                         <span>Hi There</span>
-                        <h1>I am Vitali Bedik</h1>
+                        <h1 id="Home">I am Vitali Bedik</h1>
                         <p>Frontend Developer</p>
                     </Greeting>
                     <Photo></Photo>

@@ -8,7 +8,7 @@ import {Nav} from '../Nav';
 export const Header = () => {
     return (
         <HeaderWrapper>
-            <Container margin='50px'>
+            <Container margin="50px">
                 <HeaderContainer>
                     <Nav/>
                 </HeaderContainer>

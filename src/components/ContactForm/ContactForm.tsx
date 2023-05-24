@@ -17,7 +17,7 @@ export const ContactForm = () => {
         <ContactFormWrapper>
             <Container>
                 <ContactFormContainer>
-                    <ContactFormTitle>Contacts</ContactFormTitle>
+                    <ContactFormTitle id="Contact">Contacts</ContactFormTitle>
                     <Form>
                         <NameField placeholder="Your name"/>
                         <EmailField placeholder="Your email" type="email"/>

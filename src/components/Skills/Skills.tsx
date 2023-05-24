@@ -13,12 +13,12 @@ export const Skills = () => {
     return (
         <SkillsWrapper>
             <Container>
-                    <SkillsTitle>Skills</SkillsTitle>
-                    <SkillsBlock>
-                        <Skill title="JS" description={testDescription} icon=""/>
-                        <Skill title="HTML" description={testDescription} icon=""/>
-                        <Skill title="CSS" description={testDescription} icon=""/>
-                    </SkillsBlock>
+                <SkillsTitle id="Skills">Skills</SkillsTitle>
+                <SkillsBlock>
+                    <Skill title="JS" description={testDescription} icon=""/>
+                    <Skill title="HTML" description={testDescription} icon=""/>
+                    <Skill title="CSS" description={testDescription} icon=""/>
+                </SkillsBlock>
             </Container>
         </SkillsWrapper>
     );

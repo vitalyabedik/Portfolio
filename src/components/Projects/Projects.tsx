@@ -11,7 +11,7 @@ export const Projects = () => {
     return (
         <ProjectsWrapper>
             <Container>
-                <ProjectsTitle>Projects</ProjectsTitle>
+                <ProjectsTitle id="Portfolio">Projects</ProjectsTitle>
                 <ProjectsBlock>
                     <Project title="Project name" description={projectDescription} image={projectImage}/>
                     <Project title="Project name" description={projectDescription} image={projectImage}/>
