@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
-  width: 500px;
+  width: 360px;
   //min-width: 40%;
   border: 1px solid;
   background-color: #F7F7F7;
