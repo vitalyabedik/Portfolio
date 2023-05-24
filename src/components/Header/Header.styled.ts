@@ -11,8 +11,8 @@ export const HeaderContainer = styled.div`
   justify-content: flex-end;
   align-items: center;
 
-  @media (max-width: 360px) {
+  @media (max-width: 768px) {
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
   }
 `

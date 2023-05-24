@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {Skill} from './Skill';
-import {SkillsBlock, SkillsContainer, SkillsTitle} from './Skills.styled';
+import {SkillsBlock, SkillsTitle, SkillsWrapper} from './Skills.styled';
 import {Container} from '../../assets/styles/Container.styled';
 
 export const Skills = () => {
@@ -11,16 +11,16 @@ export const Skills = () => {
         `
 
     return (
-        <SkillsContainer>
-            <Container flexDirection='column' >
-                <SkillsTitle>Skills</SkillsTitle>
-                <SkillsBlock>
-                    <Skill title="JS" description={testDescription} icon=""/>
-                    <Skill title="HTML" description={testDescription} icon=""/>
-                    <Skill title="CSS" description={testDescription} icon=""/>
-                </SkillsBlock>
+        <SkillsWrapper>
+            <Container>
+                    <SkillsTitle>Skills</SkillsTitle>
+                    <SkillsBlock>
+                        <Skill title="JS" description={testDescription} icon=""/>
+                        <Skill title="HTML" description={testDescription} icon=""/>
+                        <Skill title="CSS" description={testDescription} icon=""/>
+                    </SkillsBlock>
             </Container>
-        </SkillsContainer>
+        </SkillsWrapper>
     );
 };
 

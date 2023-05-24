@@ -10,12 +10,8 @@ export const Container = styled.div<PropsType>`
   width: 80%;
   margin: auto;
   border: 1px solid;
-
-  @media (max-width: 360px) {
-    width: 100%;
-  }
-
-  @media (max-width: 768px) {
+  
+  @media (max-width: 576px) {
     width: 100%;
   }
 `
