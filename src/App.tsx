@@ -1,7 +1,5 @@
 import React from 'react';
 
-import {AppContainer, ContentContainer} from './components/App.styled';
-
 import {Header} from './components/Header';
 import {Main} from './components/Main';
 import {Skills} from './components/Skills';
@@ -12,17 +10,17 @@ import {Footer} from './components/Footer';
 
 function App() {
     return (
-        <AppContainer>
+        <>
             <Header/>
-            <ContentContainer>
+            <main>
                 <Main/>
                 <Skills/>
                 <Projects/>
                 <HireMe/>
                 <ContactForm/>
-            </ContentContainer>
+            </main>
             <Footer/>
-        </AppContainer>
+        </>
     );
 }
 

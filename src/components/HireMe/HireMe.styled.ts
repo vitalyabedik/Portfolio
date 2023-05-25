@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HireMeWrapper = styled.div`
+export const HireMeWrapper = styled.section`
   //height: 100vh;
   background-color: #779caa;
   padding: 100px 0;

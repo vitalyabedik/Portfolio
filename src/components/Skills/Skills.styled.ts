@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SkillsWrapper = styled.div`
+export const SkillsWrapper = styled.section`
   //height: 100vh;
   background-color: #D4FFC0;
   padding: 100px 0;
@@ -11,19 +11,19 @@ export const SkillsWrapper = styled.div`
 `
 export const SkillsTitle = styled.h2`
   background-color: #9e9ea2;
-  margin-bottom: 60px;
   text-align: center;
 `
 
-export const SkillsBlock = styled.div`
+export const SkillsList = styled.ul`
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
+  margin-top: 60px;
   border: 1px solid;
-
-  @media (max-width: 576px) {
+  gap: 20px;
+  
+  @media (max-width: 992px) {
     width: 100%;
     justify-content: center;
   }

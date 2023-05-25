@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FooterWrapper = styled.div`
+export const FooterWrapper = styled.footer`
   //height: 100vh;
   background-color: #aa779e;
   padding: 100px 0 20px;
@@ -21,7 +21,7 @@ export const FooterTitle = styled.h2`
   background-color: #9e9ea2;
 `
 
-export const FooterContacts = styled.div`
+export const FooterContacts = styled.ul`
   display: flex;
   justify-content: space-between;
   background-color: aliceblue;
@@ -30,7 +30,7 @@ export const FooterContacts = styled.div`
   border: 1px solid;
 `
 
-export const FooterContact = styled.div`
+export const FooterContact = styled.li`
   background-color: bisque;
   height: 100%;
   width: 60px;

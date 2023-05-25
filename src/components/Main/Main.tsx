@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Container} from '../../assets/styles/Container.styled';
+import {Container} from '../App.styled';
 import {Greeting, MainContainer, MainWrapper, Photo} from './Main.styled';
 
 export const Main = () => {

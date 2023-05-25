@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const NavContainer = styled.div`
+export const NavList = styled.ul`
   display: flex;
   justify-content: space-between;
   width: 300px;

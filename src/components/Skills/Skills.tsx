@@ -1,8 +1,8 @@
 import React from 'react';
 
 import {Skill} from './Skill';
-import {SkillsBlock, SkillsTitle, SkillsWrapper} from './Skills.styled';
-import {Container} from '../../assets/styles/Container.styled';
+import {SkillsList, SkillsTitle, SkillsWrapper} from './Skills.styled';
+import {Container} from '../App.styled';
 
 export const Skills = () => {
     const testDescription =
@@ -14,11 +14,11 @@ export const Skills = () => {
         <SkillsWrapper>
             <Container>
                 <SkillsTitle id="Skills">Skills</SkillsTitle>
-                <SkillsBlock>
-                    <Skill title="JS" description={testDescription} icon=""/>
-                    <Skill title="HTML" description={testDescription} icon=""/>
-                    <Skill title="CSS" description={testDescription} icon=""/>
-                </SkillsBlock>
+                <SkillsList>
+                    <li><Skill title="JS" description={testDescription} icon=""/></li>
+                    <li><Skill title="HTML" description={testDescription} icon=""/></li>
+                    <li><Skill title="CSS" description={testDescription} icon=""/></li>
+                </SkillsList>
             </Container>
         </SkillsWrapper>
     );

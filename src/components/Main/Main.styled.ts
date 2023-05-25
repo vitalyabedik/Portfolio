@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MainWrapper = styled.div`
+export const MainWrapper = styled.section`
   background-color: #FFD4F0;
   padding: 100px 0;
 

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const SkillContainer = styled.div`
-  width: 215px;
+  width: 270px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -1,14 +1,22 @@
 import styled from 'styled-components';
 
-export const AppContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-`;
+type PropsType = {
+    justifyContent?: string
+    flexDirection? : string
+    margin? : string
+}
 
-export const ContentContainer = styled.div`
-  flex: 1;
-`;
+export const Container = styled.div<PropsType>`
+  width: 80%;
+  margin: auto;
+  border: 1px solid;
+  
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+`
+
+
 
 
 

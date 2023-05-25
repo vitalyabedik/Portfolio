@@ -1,5 +1,6 @@
 import React from 'react';
 
+import {Container} from '../App.styled';
 import {
     ContactFormContainer,
     ContactFormTitle, ContactFormWrapper,
@@ -9,10 +10,8 @@ import {
     NameField,
     SubmitButton
 } from './ContactForm.styled';
-import {Container} from '../../assets/styles/Container.styled';
 
 export const ContactForm = () => {
-
     return (
         <ContactFormWrapper>
             <Container>

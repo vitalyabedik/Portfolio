@@ -1,8 +1,8 @@
 import React from 'react';
 
 import {Project} from './Project';
-import {ProjectsBlock, ProjectsTitle, ProjectsWrapper} from './Projects.styled';
-import {Container} from '../../assets/styles/Container.styled';
+import {ProjectListElement, ProjectsList, ProjectsTitle, ProjectsWrapper} from './Projects.styled';
+import {Container} from '../App.styled';
 
 export const Projects = () => {
     const projectDescription = `Project description`
@@ -12,10 +12,14 @@ export const Projects = () => {
         <ProjectsWrapper>
             <Container>
                 <ProjectsTitle id="Portfolio">Projects</ProjectsTitle>
-                <ProjectsBlock>
-                    <Project title="Project name" description={projectDescription} image={projectImage}/>
-                    <Project title="Project name" description={projectDescription} image={projectImage}/>
-                </ProjectsBlock>
+                <ProjectsList>
+                    <ProjectListElement>
+                        <Project title="Project name" description={projectDescription} image={projectImage}/>
+                    </ProjectListElement>
+                    <ProjectListElement>
+                        <Project title="Project name" description={projectDescription} image={projectImage}/>
+                    </ProjectListElement>
+                </ProjectsList>
             </Container>
         </ProjectsWrapper>
     );

@@ -1,10 +1,10 @@
 import React from 'react';
 
+import {Container} from '../App.styled';
 import {FooterContact, FooterContacts, FooterContainer, FooterInfo, FooterTitle, FooterWrapper,} from './Footer.styled';
-import {Container} from '../../assets/styles/Container.styled';
+
 
 export const Footer = () => {
-
     return (
         <FooterWrapper>
             <Container>

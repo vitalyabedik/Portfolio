@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ContactFormWrapper = styled.div`
+export const ContactFormWrapper = styled.section`
   //height: 100vh;
   background-color: #4eb68b;
   padding: 100px 0;
@@ -14,7 +14,6 @@ export const ContactFormContainer = styled.div`
 
 export const ContactFormTitle = styled.h2`
   background-color: #9e9ea2;
-  margin-bottom: 50px;
 `
 
 export const Form = styled.form`
@@ -24,8 +23,8 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  margin: 50px 0;
   border: 1px solid;
-  margin-bottom: 50px;
 `
 
 export const NameField = styled.input`

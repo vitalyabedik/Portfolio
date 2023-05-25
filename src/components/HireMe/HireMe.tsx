@@ -1,10 +1,10 @@
 import React from 'react';
 
+import {Container} from '../App.styled';
 import {HireMeContainer, HireMeLink, HireMeTitle, HireMeWrapper} from './HireMe.styled';
-import {Container} from '../../assets/styles/Container.styled';
+
 
 export const HireMe = () => {
-
     return (
         <HireMeWrapper>
             <Container>

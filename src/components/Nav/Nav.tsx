@@ -1,15 +1,17 @@
 import React from 'react';
 
-import {NavContainer} from './Nav.styled';
+import {NavList} from './Nav.styled';
 
 export const Nav = () => {
     return (
-        <NavContainer>
-            <a href="#Home">Home</a>
-            <a href="#Skills">Skills</a>
-            <a href="#Portfolio">Portfolio</a>
-            <a href="#Contact">Contact</a>
-        </NavContainer>
+        <nav>
+            <NavList>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Portfolio">Portfolio</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </NavList>
+        </nav>
     );
 };
 
