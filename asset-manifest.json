@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.bead4bad.css",
+    "main.js": "/Portfolio/static/js/main.5be2247a.js",
+    "index.html": "/Portfolio/index.html",
+    "main.bead4bad.css.map": "/Portfolio/static/css/main.bead4bad.css.map",
+    "main.5be2247a.js.map": "/Portfolio/static/js/main.5be2247a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bead4bad.css",
+    "static/js/main.5be2247a.js"
+  ]
+}
