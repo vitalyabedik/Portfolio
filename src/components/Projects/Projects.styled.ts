@@ -11,7 +11,7 @@ export const ProjectsTitle = styled.h2`
   text-align: center;
 `
 
-export const ProjectsList = styled.div`
+export const ProjectsList = styled.ul`
   width: 100%;
   display: flex;
   justify-content: space-between;
