@@ -7,20 +7,24 @@ import {Projects} from './components/Projects';
 import {HireMe} from './components/HireMe';
 import {ContactForm} from './components/ContactForm';
 import {Footer} from './components/Footer';
+import {SkillsContext, ProjectsContext} from './context';
+import {projects, skills} from './data';
 
 function App() {
     return (
-        <>
-            <Header/>
-            <main>
-                <Main/>
-                <Skills/>
-                <Projects/>
-                <HireMe/>
-                <ContactForm/>
-            </main>
-            <Footer/>
-        </>
+        <SkillsContext.Provider value={skills}>
+            <ProjectsContext.Provider value={projects}>
+                <Header/>
+                <main>
+                    <Main/>
+                    <Skills/>
+                    <Projects/>
+                    <HireMe/>
+                    <ContactForm/>
+                </main>
+                <Footer/>
+            </ProjectsContext.Provider>
+        </SkillsContext.Provider>
     );
 }
 
