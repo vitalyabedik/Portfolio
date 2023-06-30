@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import React from 'react';
 
 export const ProjectsWrapper = styled.section`
   background-color: #c3a0cc;

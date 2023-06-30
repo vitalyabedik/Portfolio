@@ -21,10 +21,14 @@ export const SkillsList = styled.ul`
   flex-wrap: wrap;
   margin-top: 60px;
   border: 1px solid;
-  gap: 20px;
+  gap: 50px;
+  
+  //padding: 30px;
+  
   
   @media (max-width: 992px) {
     width: 100%;
     justify-content: center;
   }
 `
+

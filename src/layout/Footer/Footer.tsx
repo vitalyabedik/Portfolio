@@ -1,6 +1,6 @@
 import React from 'react';
 
-import {Container} from '../App.styled';
+import {Container} from '../../App.styled';
 import {FooterContact, FooterContacts, FooterContainer, FooterInfo, FooterTitle, FooterWrapper,} from './Footer.styled';
 
 

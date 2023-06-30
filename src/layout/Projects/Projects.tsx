@@ -2,7 +2,7 @@ import React from 'react';
 
 import {Project} from './Project';
 import {ProjectListElement, ProjectsList, ProjectsTitle, ProjectsWrapper} from './Projects.styled';
-import {Container} from '../App.styled';
+import {Container} from '../../App.styled';
 
 export const Projects = () => {
     const projectDescription = `Project description`
