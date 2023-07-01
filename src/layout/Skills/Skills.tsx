@@ -1,10 +1,11 @@
 import React, {useContext} from 'react';
 
 import {Container} from '../../App.styled';
-import {SkillsList, SkillsTitle, SkillsWrapper} from './Skills.styled';
+import {SkillsList, SkillsWrapper} from './Skills.styled';
 
 import {Skill} from './Skill';
 import {SkillsContext} from '../../context';
+import {Title2} from '../../components';
 
 export const Skills = () => {
     const skills = useContext(SkillsContext);
@@ -15,14 +16,14 @@ export const Skills = () => {
             title={skill.title}
             icon={skill.icon}
             color={skill.color}
-            size="10rem"
+            size="100px"
         />
     ));
 
     return (
         <SkillsWrapper>
             <Container>
-                <SkillsTitle id="Skills">Skills</SkillsTitle>
+                <Title2 id="Skills">Skills</Title2>
                 <SkillsList>
                     {skillsList}
                 </SkillsList>

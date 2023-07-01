@@ -1,15 +1,25 @@
 import { IconType } from 'react-icons';
-import { FaReact } from 'react-icons/fa';
+import {FaReact, FaYarn} from 'react-icons/fa';
 import {
-    SiAntdesign,
+    SiAntdesign, SiApollographql,
     SiAxios,
-    SiCssmodules, SiFigma, SiJest, SiMui, SiReactrouter, SiRedux, SiStyledcomponents, SiWebpack
+    SiCssmodules,
+    SiFigma, SiGraphql,
+    SiJest,
+    SiMui,
+    SiReacthookform,
+    SiReactquery,
+    SiReactrouter,
+    SiRedux, SiReduxsaga,
+    SiStyledcomponents,
+    SiWebpack,
 } from 'react-icons/si';
 import {
     TbBrandHtml5, TbBrandStorybook, TbBrandTypescript
 } from 'react-icons/tb';
-import { DiCss3Full, DiJavascript1, DiSass } from 'react-icons/di';
+import {DiCss3Full, DiJavascript1, DiNpm, DiSass} from 'react-icons/di';
 import {BsGit} from 'react-icons/bs';
+
 
 
 export type SkillType = {
@@ -32,9 +42,14 @@ export const skills: SkillType[] = [
         color: '#149eca',
     },
     {
-        title: 'Redux',
+        title: 'Redux Toolkit',
         icon: SiRedux,
         color: '#764abc',
+    },
+    {
+        title: 'Redux Saga',
+        icon: SiReduxsaga,
+        color: '#86d46b',
     },
     {
         title: 'TypeScript',
@@ -64,7 +79,7 @@ export const skills: SkillType[] = [
     {
         title: 'CSS Modules',
         icon: SiCssmodules,
-        color: '#000',
+        color: '#fff',
     },
     {
         title: 'Styled Components',
@@ -92,6 +107,26 @@ export const skills: SkillType[] = [
         color: '#f44250',
     },
     {
+        title: 'React Hook Form',
+        icon: SiReacthookform,
+        color: '#ec5990',
+    },
+    {
+        title: 'React Query',
+        icon: SiReactquery,
+        color: '#ff4154',
+    },
+    {
+        title: 'Apollo',
+        icon: SiApollographql,
+        color: '#fff',
+    },
+    {
+        title: 'Graph QL',
+        icon: SiGraphql,
+        color: '#fff',
+    },
+    {
         title: 'Jest',
         icon: SiJest,
         color: '#c53d17',
@@ -116,6 +151,16 @@ export const skills: SkillType[] = [
         icon: SiFigma,
         color: '#a259ff',
     },
+    {
+        title: 'Yarn',
+        icon: FaYarn,
+        color: '#2c8ebb',
+    },
+    {
+        title: 'NPM',
+        icon: DiNpm,
+        color: '#c53635',
+    }
 ];
 
 export const projects: ProjectType[] = [
