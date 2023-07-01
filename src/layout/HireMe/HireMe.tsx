@@ -2,6 +2,8 @@ import React from 'react';
 
 import {Container} from '../../App.styled';
 import {HireMeContainer, HireMeLink, HireMeTitle, HireMeWrapper} from './HireMe.styled';
+import {Title2} from '../../components';
+import {Button} from '../../components/Button';
 
 
 export const HireMe = () => {
@@ -9,8 +11,9 @@ export const HireMe = () => {
         <HireMeWrapper>
             <Container>
                 <HireMeContainer>
-                    <HireMeTitle>I am available for remote work!</HireMeTitle>
-                    <HireMeLink>Hire me</HireMeLink>
+                    <Title2>Interested in working with me?</Title2>
+                    {/*<HireMeLink>Hire me</HireMeLink>*/}
+                    <Button>Hire me</Button>
                 </HireMeContainer>
             </Container>
         </HireMeWrapper>
