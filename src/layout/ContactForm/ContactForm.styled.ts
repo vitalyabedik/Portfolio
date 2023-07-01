@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const ContactFormWrapper = styled.section`
   //height: 100vh;
-  background-color: #4eb68b;
   padding: 100px 0;
 `
 
@@ -12,39 +11,61 @@ export const ContactFormContainer = styled.div`
   align-items: center;
 `
 
-export const ContactFormTitle = styled.h2`
-  background-color: #9e9ea2;
-`
-
 export const Form = styled.form`
-  background-color: #FFFFFFFF;
   width: 360px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
   margin: 50px 0;
-  border: 1px solid;
 `
 
-export const NameField = styled.input`
-  background-color: #9e9ea2;
+
+export const FormInput = styled.input`
   width: 100%;
+  display: block;
+  font-size: 1.6rem;
+  height: 50px;
+  width: 100%;
+  color: #eee;
+  padding: 0;
+  background: 0 0;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  resize: none;
+  outline: 0;
+  border-radius: 0;
+  
+  &:active {
+    border-color: #4bffa5;
+  }
+  
 `
 
 export const EmailField = styled.input`
-  background-color: #9e9ea2;
   width: 100%;
 `
 
 export const MessageField = styled.textarea`
-  background-color: #9e9ea2;
   max-width: 100%;
   min-width: 100%;
+  
+  display: block;
+  font-size: 1.6rem;
+  height: 120px;
+  width: 100%;
+  color: #eee;
+  padding: 0;
+  background: 0 0;
+  border: none;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+  resize: none;
+  outline: 0;
+  border-radius: 0;
+  
+  &:active {
+    border-color: #4bffa5;
+  }
 `
 
-export const SubmitButton = styled.input`
-  padding: 5px 20px;
-  background-color: #9e9ea2;
-`
 

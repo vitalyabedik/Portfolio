@@ -3,26 +3,25 @@ import React from 'react';
 import {Container} from '../../App.styled';
 import {
     ContactFormContainer,
-    ContactFormTitle, ContactFormWrapper,
-    EmailField,
+    ContactFormWrapper,
     Form,
-    MessageField,
-    NameField,
-    SubmitButton
+    FormInput, MessageField,
 } from './ContactForm.styled';
+import {Title2} from '../../components';
+import {Button} from '../../components/Button';
 
 export const ContactForm = () => {
     return (
         <ContactFormWrapper>
             <Container>
                 <ContactFormContainer>
-                    <ContactFormTitle id="Contact">Contacts</ContactFormTitle>
+                    <Title2 id="Contact">Contacts</Title2>
                     <Form>
-                        <NameField placeholder="Your name"/>
-                        <EmailField placeholder="Your email" type="email"/>
-                        <MessageField placeholder="Your message"/>
+                        <FormInput placeholder="Name"/>
+                        <FormInput placeholder="Email" type="email"/>
+                        <MessageField placeholder="Message"/>
                     </Form>
-                    <SubmitButton type="submit" value="Submit"/>
+                    <Button type="submit" value="Send Message">Send Message</Button>
                 </ContactFormContainer>
             </Container>
         </ContactFormWrapper>
