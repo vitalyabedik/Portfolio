@@ -1,7 +1,8 @@
 import React from 'react';
 
 import {Container} from '../../App.styled';
-import {FooterContact, FooterContacts, FooterContainer, FooterInfo, FooterTitle, FooterWrapper,} from './Footer.styled';
+import {FooterContacts, FooterContainer, FooterInfo, FooterTitle, FooterWrapper,} from './Footer.styled';
+import  {SocialContacts} from '../../components/SocialContacts';
 
 
 export const Footer = () => {
@@ -9,12 +10,9 @@ export const Footer = () => {
         <FooterWrapper>
             <Container>
                 <FooterContainer>
-                    <FooterTitle>Vitali Bedik</FooterTitle>
+                    <FooterTitle>You can find me here:</FooterTitle>
                     <FooterContacts>
-                        <FooterContact></FooterContact>
-                        <FooterContact></FooterContact>
-                        <FooterContact></FooterContact>
-                        <FooterContact></FooterContact>
+                        <SocialContacts iconSize="60px" />
                     </FooterContacts>
                     <FooterInfo>© 2023. All Rights Reserved.</FooterInfo>
                 </FooterContainer>
