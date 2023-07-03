@@ -19,6 +19,7 @@ import {
 } from 'react-icons/tb';
 import {DiCss3Full, DiJavascript1, DiNpm, DiSass} from 'react-icons/di';
 import {BsGit} from 'react-icons/bs';
+import {AiOutlineCloudServer} from 'react-icons/ai';
 
 
 
@@ -46,11 +47,11 @@ export const skills: SkillType[] = [
         icon: SiRedux,
         color: '#764abc',
     },
-    {
-        title: 'Redux Saga',
-        icon: SiReduxsaga,
-        color: '#86d46b',
-    },
+    // {
+    //     title: 'Redux Saga',
+    //     icon: SiReduxsaga,
+    //     color: '#86d46b',
+    // },
     {
         title: 'TypeScript',
         icon: TbBrandTypescript,
@@ -82,11 +83,6 @@ export const skills: SkillType[] = [
         color: '#fff',
     },
     {
-        title: 'Styled Components',
-        icon: SiStyledcomponents,
-        color: '#ffd35b',
-    },
-    {
         title: 'Ant Design',
         icon: SiAntdesign,
         color: '#0170fe',
@@ -95,6 +91,11 @@ export const skills: SkillType[] = [
         title: 'Material UI',
         icon: SiMui,
         color: '#0081cb',
+    },
+    {
+        title: 'Styled Components',
+        icon: SiStyledcomponents,
+        color: '#ffd35b',
     },
     {
         title: 'Storybook',
@@ -106,26 +107,26 @@ export const skills: SkillType[] = [
         icon: SiReactrouter,
         color: '#f44250',
     },
-    {
-        title: 'React Hook Form',
-        icon: SiReacthookform,
-        color: '#ec5990',
-    },
-    {
-        title: 'React Query',
-        icon: SiReactquery,
-        color: '#ff4154',
-    },
-    {
-        title: 'Apollo',
-        icon: SiApollographql,
-        color: '#fff',
-    },
-    {
-        title: 'Graph QL',
-        icon: SiGraphql,
-        color: '#fff',
-    },
+    // {
+    //     title: 'React Hook Form',
+    //     icon: SiReacthookform,
+    //     color: '#ec5990',
+    // },
+    // {
+    //     title: 'React Query',
+    //     icon: SiReactquery,
+    //     color: '#ff4154',
+    // },
+    // {
+    //     title: 'Apollo',
+    //     icon: SiApollographql,
+    //     color: '#fff',
+    // },
+    // {
+    //     title: 'Graph QL',
+    //     icon: SiGraphql,
+    //     color: '#fff',
+    // },
     {
         title: 'Jest',
         icon: SiJest,
@@ -135,6 +136,11 @@ export const skills: SkillType[] = [
         title: 'Axios',
         icon: SiAxios,
         color: '#5a29e4',
+    },
+    {
+        title: 'REST API',
+        icon: AiOutlineCloudServer,
+        color: '#39a6dd',
     },
     {
         title: 'Git',
@@ -151,16 +157,6 @@ export const skills: SkillType[] = [
         icon: SiFigma,
         color: '#a259ff',
     },
-    {
-        title: 'Yarn',
-        icon: FaYarn,
-        color: '#2c8ebb',
-    },
-    {
-        title: 'NPM',
-        icon: DiNpm,
-        color: '#c53635',
-    }
 ];
 
 export const projects: ProjectType[] = [
