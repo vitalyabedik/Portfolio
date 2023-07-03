@@ -16,14 +16,6 @@ export const FooterContainer = styled.div`
   gap: 60px;
 `
 
-export const FooterTitle = styled.h2`
-  //background-color: #9e9ea2;
-  font-weight: 700;
-  font-size: 3rem;
-  line-height: 4.8rem;
-  color: #fff;
-`
-
 export const FooterContacts = styled.ul`
   //background-color: aliceblue;
   display: flex;

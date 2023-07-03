@@ -13,10 +13,10 @@ export const HeaderContainer = styled.div`
   width: 100%;
   justify-content: flex-end;
   align-items: center;
-  
-  
+
   @media (max-width: 768px) {
     width: 100%;
-    justify-content: center;
+    justify-content: space-evenly;
   }
+  
 `

@@ -13,18 +13,29 @@ export const NavItem = styled.li`
   &:not(:last-child) {
     margin-right: 80px;
   }
+
+  @media (max-width: 768px) {
+    &:not(:last-child) {
+      margin-right: 60px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
 `
 
 export const NavLinkItem = styled.a`
-  font-size: 16px;
-  line-height: 2.5;
+  font-size: 2rem;
+  line-height: 2.8rem;
   color: #fff;
   font-weight: 600;
-  opacity: .65;
   text-decoration: none;
   
   &:hover {
-    opacity: 1;
+    opacity: .65;
   }
 `
 
