@@ -16,7 +16,7 @@ export const Skills = () => {
             title={skill.title}
             icon={skill.icon}
             color={skill.color}
-            size="100px"
+            size="80px"
         />
     ));
 

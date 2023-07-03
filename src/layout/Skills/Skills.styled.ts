@@ -1,19 +1,17 @@
 import styled from 'styled-components';
 
 export const SkillsWrapper = styled.section`
-  //height: 100vh;
-  //background-color: #D4FFC0;
   padding: 100px 0;
 
   @media (max-width: 576px) {
-    padding: 100px 0 15px;
+    padding-top: 400px;
   }
 `
 
 export const SkillsList = styled.ul`
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 60px;
   border: 1px solid;
