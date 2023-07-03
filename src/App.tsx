@@ -1,14 +1,16 @@
 import React from 'react';
 
-import {Header} from './components/Header';
-import {Main} from './components/Main';
-import {Skills} from './components/Skills';
-import {Projects} from './components/Projects';
-import {HireMe} from './components/HireMe';
-import {ContactForm} from './components/ContactForm';
-import {Footer} from './components/Footer';
+
+import {Header} from './layout/Header';
+import {Skills} from './layout/Skills';
+import {HireMe} from './layout/HireMe';
+import {ContactForm} from './layout/ContactForm';
+import {Footer} from './layout/Footer';
+import {Projects} from './layout/Projects';
+import {Main} from './layout/Main';
 import {SkillsContext, ProjectsContext} from './context';
 import {projects, skills} from './data';
+
 
 function App() {
     return (
