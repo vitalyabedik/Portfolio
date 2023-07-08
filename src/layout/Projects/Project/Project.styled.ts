@@ -2,15 +2,10 @@ import styled from 'styled-components';
 
 export const ProjectContainer = styled.div`
   display: flex;
-  //width: 700px;
-
   background-color: #182636;
   padding: 20px;
-  //width: 800px;
-  //min-width: 40%;
   border: 1px solid;
-  //background-color: #F7F7F7;
-
+  
   @media (max-width: 1024px) {
     flex-direction: column;
   }
@@ -21,12 +16,11 @@ type ProjectImagePropsType = {
 }
 
 export const ProjectImage = styled.div<ProjectImagePropsType>`
+  height: 300px;
+  width: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
-  //height: 400px;
-  width: 600px;
   background-image: url(${props => props.backgroundimage});
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,17 +47,14 @@ export const ProjectHeader = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  //flex-direction: column;
 `
 
 export const ProjectMainInfo = styled.div`
   display: flex;
   width: 100%;
-  //flex-direction: column;
 `
 
 export const ProjectInfo = styled.div`
-  //background-color: #d1d1d1;
   width: 100%;
   text-align: left;
   padding-left: 20px;
@@ -77,14 +68,10 @@ export const ProjectInfo = styled.div`
 `
 
 export const ProjectDescription = styled.div`
-  //background-color: #9e9ea2;
-  //width: 100%;
-  margin-top: 10px;
-  //margin-bottom: 30px;
-
   font-size: 1.6rem;
   line-height: 2.4rem;
-  color: #BBBBBB
+  color: #BBBBBB;
+  margin-top: 10px;
 `
 export const ProjectStack = styled.div`
   display: flex;
@@ -95,24 +82,11 @@ export const ProjectStack = styled.div`
 `
 
 export const ProjectStackItem = styled.span`
-  //font-size: 1.6rem;
-  //padding: 10px;
-  ////margin: 0 10px;
-  //text-align: center;
-  //
-  //color: #4bffa5;
-  //line-height: 2.4rem;
-  //font-weight: 600;
-  //
-  //border: 1px solid white;
-  //border-radius: 30px;
-
   font-size: 1.6rem;
+  color: #4bffa5;
   display: flex;
   -webkit-box-align: center;
   align-items: center;
-  //background-color: #fff;
-  color: #4bffa5;
   border-radius: 30px;
   margin-right: 5px;
   padding: 5px 10px;
@@ -123,7 +97,6 @@ export const ProjectLinks = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
 `
 
 

@@ -17,14 +17,6 @@ export const SkillContainer = styled.div`
   }
 `
 
-export const SkillTitle = styled.h3`
-  font-size: 2rem;
-  line-height: 2.8rem;
-  font-weight: 600;
-  text-align: center;
-  
-  color: white;
-`
 
 
 
