@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.bead4bad.css",
-    "main.js": "/Portfolio/static/js/main.5be2247a.js",
+    "main.css": "/Portfolio/static/css/main.f657ffb3.css",
+    "main.js": "/Portfolio/static/js/main.0ec628c7.js",
+    "static/media/weather-app.png": "/Portfolio/static/media/weather-app.2b499b00d1388c003108.png",
+    "static/media/social-network-app.png": "/Portfolio/static/media/social-network-app.e1fdd32218a02c5bba8b.png",
+    "static/media/myPhoto.png": "/Portfolio/static/media/myPhoto.48687495e2480ad0b9a0.png",
+    "static/media/plants-app.png": "/Portfolio/static/media/plants-app.94e8ecc9fba1b6d68f22.png",
+    "static/media/beauty-shop-app.png": "/Portfolio/static/media/beauty-shop-app.3ffa055a2a222c7c61ff.png",
+    "static/media/react-cheat-sheet-app.png": "/Portfolio/static/media/react-cheat-sheet-app.5cc8d33bdb025a0a066b.png",
+    "static/media/todolist-app.png": "/Portfolio/static/media/todolist-app.69d573dd4305e8558a04.png",
+    "static/media/counter-app.png": "/Portfolio/static/media/counter-app.60efdba5f1bfd2edab64.png",
     "index.html": "/Portfolio/index.html",
-    "main.bead4bad.css.map": "/Portfolio/static/css/main.bead4bad.css.map",
-    "main.5be2247a.js.map": "/Portfolio/static/js/main.5be2247a.js.map"
+    "main.f657ffb3.css.map": "/Portfolio/static/css/main.f657ffb3.css.map",
+    "main.0ec628c7.js.map": "/Portfolio/static/js/main.0ec628c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.bead4bad.css",
-    "static/js/main.5be2247a.js"
+    "static/css/main.f657ffb3.css",
+    "static/js/main.0ec628c7.js"
   ]
 }
