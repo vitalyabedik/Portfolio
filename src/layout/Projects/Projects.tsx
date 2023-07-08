@@ -1,24 +1,35 @@
-import React from 'react';
+import React, {useContext} from 'react';
 
 import {Project} from './Project';
-import {ProjectListElement, ProjectsList, ProjectsTitle, ProjectsWrapper} from './Projects.styled';
+import {ProjectListElement, ProjectsList, ProjectsWrapper} from './Projects.styled';
 import {Container} from '../../App.styled';
+import {ProjectsContext} from '../../context';
+import {Title2} from '../../components';
 
 export const Projects = () => {
-    const projectDescription = `Project description`
-    const projectImage = `Project description`
+    const projects = useContext(ProjectsContext);
 
     return (
         <ProjectsWrapper>
             <Container>
-                <ProjectsTitle id="Portfolio">Projects</ProjectsTitle>
+                <Title2 id="Portfolio">Projects</Title2>
                 <ProjectsList>
-                    <ProjectListElement>
-                        <Project title="Project name" description={projectDescription} image={projectImage}/>
-                    </ProjectListElement>
-                    <ProjectListElement>
-                        <Project title="Project name" description={projectDescription} image={projectImage}/>
-                    </ProjectListElement>
+                    {
+                        projects.map((project, id) => {
+                            return (
+                                <ProjectListElement key={id}>
+                                    <Project title={project.title}
+                                             demoUrl={project.demoUrl}
+                                             githubUrl={project.githubUrl}
+                                             image={project.image}
+                                             description={project.description}
+                                             technologies={project.technologies}
+                                             badge={project.badge}
+                                    />
+                                </ProjectListElement>
+                            )
+                        })
+                    }
                 </ProjectsList>
             </Container>
         </ProjectsWrapper>

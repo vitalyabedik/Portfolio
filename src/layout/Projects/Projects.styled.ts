@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ProjectsWrapper = styled.section`
-  background-color: #c3a0cc;
+  //background-color: #c3a0cc;
   padding: 100px 0;
 `
 
@@ -26,4 +26,5 @@ export const ProjectsList = styled.ul`
 
 export const ProjectListElement = styled.li`
   list-style-type: none;
+  width: 100%;
 `
