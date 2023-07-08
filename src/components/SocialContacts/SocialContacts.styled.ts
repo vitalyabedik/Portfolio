@@ -10,7 +10,7 @@ export const IconLink = styled.a`
   }
 
   &:hover svg {
-    fill: #fff;
+    fill: #4bffa5;
     transform: scale(1.05);
   }
 `;

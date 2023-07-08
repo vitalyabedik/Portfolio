@@ -3,9 +3,16 @@ import styled from 'styled-components';
 type SpanProps = {
     color?: string
 }
+
 export const Span = styled.span<SpanProps>`
   color: ${({color = '#4bffa5'}) => color};
   font-weight: bold;
+`
+export const Badge = styled.span<SpanProps>`
+  color: ${({color = '#4bffa5'}) => color};
+  border: 2px solid #4bffa5;
+  font-size: 1.6rem;
+  padding: 10px;
 `
 
 export const Title1 = styled.h1`

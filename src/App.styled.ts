@@ -11,7 +11,7 @@ export const Container = styled.div<PropsType>`
   //width: 1200px;
   //padding: 0 40px;
   margin: auto;
-  border: 1px solid;
+  //border: 1px solid red;
   
   @media (max-width: 576px) {
     width: 100%;

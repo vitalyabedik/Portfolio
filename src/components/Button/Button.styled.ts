@@ -12,9 +12,14 @@ export const Button = styled.button`
   border: 2px solid #4bffa5;
   cursor: pointer;
   padding: 10px 35px;
+
+  transition: transform 0.3s ease-in-out;
   
   &:hover {
-    opacity: 0.9;
+    transform: scale(1.05);
   }
 `
+
+
+
 

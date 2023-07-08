@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components';
 
-import me from '../../assets/images/me-1.png'
+import me from '../../assets/images/myPhoto.png'
 
 
 export const MainWrapper = styled.section`
