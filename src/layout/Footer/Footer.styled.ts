@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.footer`
-  //height: 100vh;
   padding: 100px 0 20px;
 
   @media (max-width: 576px) {
@@ -17,7 +16,6 @@ export const FooterContainer = styled.div`
 `
 
 export const FooterContacts = styled.ul`
-  //background-color: aliceblue;
   display: flex;
   justify-content: space-between;
   height: 60px;
@@ -26,15 +24,13 @@ export const FooterContacts = styled.ul`
 `
 
 export const FooterInfo = styled.h3`
-  //background-color: #9e9ea2;
-  
+  height: 24px;
   height: 100%;
-  color: #BBBBBB;
   font-size: 1.6rem;
   font-weight: 400;
-  height: 24px;
   letter-spacing: normal;
   line-height: 2.4rem;
+  color: #BBBBBB;
 `
 
 

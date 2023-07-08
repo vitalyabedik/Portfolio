@@ -2,6 +2,7 @@ import React from 'react';
 
 import {Container} from '../../App.styled';
 import {Greeting, GreetingTitle, InfoText, MainContainer, MainInfo, MainWrapper} from './Main.styled';
+
 import {Span, Title1} from '../../components';
 
 export const Main = () => {

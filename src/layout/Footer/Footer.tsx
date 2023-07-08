@@ -2,6 +2,7 @@ import React from 'react';
 
 import {Container} from '../../App.styled';
 import {FooterContacts, FooterContainer, FooterInfo, FooterWrapper,} from './Footer.styled';
+
 import {SocialContacts} from '../../components/SocialContacts';
 import {Title2} from '../../components';
 

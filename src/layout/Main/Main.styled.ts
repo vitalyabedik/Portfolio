@@ -4,15 +4,6 @@ import me from '../../assets/images/myPhoto.png'
 
 
 export const MainWrapper = styled.section`
-  //background-color: #FFD4F0;
-  //padding: 100px 0;
-
-  // background-image: url(${me});
-  // background-repeat: no-repeat;
-  // background-position: center center;
-  // background-size: cover;
-  // background-color: black;
-  
   @media (max-width: 768px) {
     padding-top: 0;
   }
@@ -25,50 +16,19 @@ export const MainContainer = styled.div`
   background-size: cover;
   background-color: black;
   
-  //display: flex;
-
-  //@media (max-width: 1280px) {
-  //  background-position-x: 90%;
-  //}
-
   @media (max-width: 1200px) {
     background-position-x: 70%;
-    //
-    //background-size: contain;
-    //background-position-y: 10%;
-
-    //background-position-x: 40%;
   }
 
   @media (max-width: 992px) {
     background-position-x: 80%;
-    //
-    //background-size: contain;
-    //background-position-y: 10%;
-
-    //background-position-x: 40%;
   }
 
 
   @media (max-width: 576px) {
     background-size: cover;
     background-position-x: 77%;
-    //background-position: center center;
-    //
-    //background-size: contain;
-    //background-position-y: 10%;
-
-    //background-position-x: 40%;
   }
-  
-
-  //@media (max-width: 768px) {
-  //  background-position-x: 80%;
-  //  flex-direction: column;
-  //  width: 100%;
-  //  justify-content: space-between;
-  //  gap: 40px;
-  //}
 `
 
 export const MainInfo = styled.div`
@@ -86,21 +46,6 @@ export const MainInfo = styled.div`
   @media (max-width: 976px) {
     padding-top: 100px;
   }
-  
-  
-  //@media (max-width: 768px) {
-  //  flex-direction: column;
-  //  width: 100%;
-  //  justify-content: space-between;
-  //  gap: 40px;
-  //}
-
-  //@media (max-width: 976px) {
-  //  min-height: 100vh;
-  //  //padding-top: 55%;
-  //  text-align: center;
-  //  justify-content: flex-start;
-  //}
 `
 
 

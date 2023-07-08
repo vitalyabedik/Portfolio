@@ -8,9 +8,9 @@ export const HeaderWrapper = styled.header`
 `
 
 export const HeaderContainer = styled.div`
+  width: 100%;
   height: 80px;
   display: flex;
-  width: 100%;
   justify-content: flex-end;
   align-items: center;
 

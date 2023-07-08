@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const ContactFormWrapper = styled.section`
-  //height: 100vh;
   padding: 100px 0;
 `
 
@@ -46,14 +45,9 @@ export const FormInput = styled.input`
   
 `
 
-export const EmailField = styled.input`
-  width: 100%;
-`
-
 export const MessageField = styled.textarea`
   max-width: 100%;
   min-width: 100%;
-  
   display: block;
   font-size: 1.6rem;
   height: 120px;

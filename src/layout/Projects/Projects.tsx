@@ -1,9 +1,10 @@
 import React, {useContext} from 'react';
 
-import {Project} from './Project';
 import {ProjectListElement, ProjectsList, ProjectsWrapper} from './Projects.styled';
 import {Container} from '../../App.styled';
+
 import {ProjectsContext} from '../../context';
+import {Project} from './Project';
 import {Title2} from '../../components';
 
 export const Projects = () => {

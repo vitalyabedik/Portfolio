@@ -42,13 +42,6 @@ export const ProjectImage = styled.div<ProjectImagePropsType>`
   }
 `
 
-export const ProjectHeader = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-`
-
 export const ProjectMainInfo = styled.div`
   display: flex;
   width: 100%;
@@ -67,12 +60,13 @@ export const ProjectInfo = styled.div`
   }
 `
 
-export const ProjectDescription = styled.div`
-  font-size: 1.6rem;
-  line-height: 2.4rem;
-  color: #BBBBBB;
-  margin-top: 10px;
+export const ProjectHeader = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `
+
 export const ProjectStack = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -93,12 +87,19 @@ export const ProjectStackItem = styled.span`
   padding-left: 0;
   white-space: nowrap;
 `
+
+export const ProjectDescription = styled.div`
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #BBBBBB;
+  margin-top: 10px;
+`
+
 export const ProjectLinks = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
 `
-
 
 export const ProjectLink = styled.a`
   margin-top: 20px;

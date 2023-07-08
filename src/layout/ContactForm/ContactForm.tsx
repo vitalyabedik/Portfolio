@@ -2,11 +2,10 @@ import React from 'react';
 
 import {Container} from '../../App.styled';
 import {
-    ContactFormContainer,
-    ContactFormWrapper,
-    Form,
-    FormInput,
+    ContactFormContainer, ContactFormWrapper, Form,
+    FormInput, MessageField,
 } from './ContactForm.styled';
+
 import {Title2} from '../../components';
 import {Button} from '../../components/Button';
 
@@ -15,12 +14,11 @@ export const ContactForm = () => {
         <ContactFormWrapper>
             <Container>
                 <ContactFormContainer>
-
                     <Title2 id="Contact">Contacts</Title2>
                     <Form>
                         <FormInput placeholder="Name"/>
                         <FormInput placeholder="Email" type="email"/>
-                        <FormInput placeholder="Message"/>
+                        <MessageField placeholder="Message"/>
                     </Form>
                     <Button type="submit" value="Send Message">Send Message</Button>
                 </ContactFormContainer>

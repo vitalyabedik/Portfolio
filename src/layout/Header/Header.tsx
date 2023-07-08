@@ -2,6 +2,7 @@ import React from 'react';
 
 import {Container} from '../../App.styled';
 import {HeaderContainer, HeaderWrapper} from './Header.styled';
+
 import {Nav} from '../Nav';
 
 export const Header = () => {
