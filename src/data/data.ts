@@ -175,9 +175,12 @@ export const projects: ProjectType[] = [
         demoUrl: 'https://vitalyabedik.github.io/weather-test/',
         githubUrl: '',
         image: weatherAppImage,
-        description: `An application that displays the weather in populated areas 
+        description: `
+        An application that displays the weather in populated areas 
         with additional visualization. At the first stage, 
-        the user's location is determined automatically. Also user can do some notes and see it in calendar.`,
+        the user's location is determined automatically. Also user can do some notes and see it in calendar.
+        With full adaptive.
+        `,
         technologies: [
             'React', 'Redux', 'Redux Thunk', 'Redux Persist', 'JavaScript', 'HTML', 'CSS',
             'CSS modules', 'SCSS', 'Ant Design', 'Axios', 'moment-js', 'eslint-config-airbnb',
@@ -190,9 +193,12 @@ export const projects: ProjectType[] = [
         demoUrl: '',
         githubUrl: '',
         image: todolistAppImage,
-        description: `It is a list of tasks. You can combine tasks into groups, 
+        description: `
+        It is a list of tasks. You can combine tasks into groups, 
         delete/add new ones, as well as change their names. 
-        There is a filter for sorting tasks by the degree of their completion`,
+        There is a filter for sorting tasks by the degree of their completion.
+        The project is in a development project.
+        `,
         technologies: [
             'React', 'Redux Toolkit', 'TypeScript', 'HTML', 'CSS', 'Styled components',
             'Material UI', 'React Router Dom 6', 'React Query', 'React Hook Form',
@@ -205,8 +211,10 @@ export const projects: ProjectType[] = [
         demoUrl: 'https://vitalyabedik.github.io/it-incubator.samurai-way/',
         githubUrl: 'https://github.com/vitalyabedik/it-incubator.samurai-way',
         image: socialNetworkAppImage,
-        description: `This website project is a possible representation of a social network like VKONTAKTE or Facebook. 
-        The project is in a development project`,
+        description: `
+        This website project is a possible representation of a social network like VKONTAKTE or Facebook. 
+        The project is in a development project.
+        `,
         technologies: [
             'React (class components)', 'Redux', 'Redux Thunk', 'TypeScript', 'HTML', 'CSS',
             'CSS modules', 'SCSS', 'React Router Dom 5', 'Redux Form', 'Reselect', 'Axios', 'REST API'
@@ -218,11 +226,13 @@ export const projects: ProjectType[] = [
         demoUrl: 'https://vitalyabedik.github.io/Counter/',
         githubUrl: 'https://github.com/vitalyabedik/Counter',
         image: counterAppImage,
-        description: `Counter is a test project which (to tell the truth) 
+        description: `
+        Counter is a test project which (to tell the truth) 
         doesn't have a lot of practical use. It allows to do some settings which influence 
-        on the way how the counter works.`,
+        on the way how the counter works.
+        `,
         technologies: [
-            'React', 'Redux', 'Redux Thunk', 'TypeScript', 'HTML', 'CSS', 'CSS modules', 'SCSS',
+            'React', 'Redux', 'Redux Thunk', 'TypeScript', 'HTML', 'CSS', 'CSS modules'
         ],
         badge: 'IT-Incubator'
     },
@@ -231,7 +241,10 @@ export const projects: ProjectType[] = [
         demoUrl: 'https://vitalyabedik.github.io/Redev.React.1-project.React-cheatsheet/',
         githubUrl: 'https://github.com/vitalyabedik/Redev.React.1-project.React-cheatsheet',
         image: reactCheatSheepAppImage,
-        description: `Comprehensive React cheatsheet for beginners.`,
+        description: `
+        Comprehensive React cheatsheet for beginners.
+        Adaptive layout in progress.
+        `,
         technologies: [
             'React', 'JavaScript', 'HTML', 'CSS', 'SASS', 'React Router Dom 6', 'Ant Design', 'React Code Blocks'
         ],
@@ -242,7 +255,10 @@ export const projects: ProjectType[] = [
         demoUrl: 'https://rolling-scopes-school.github.io/vitalyabedik-JSFEPRESCHOOL2022Q4/plants/',
         githubUrl: 'private repository',
         image: plantsAppImage,
-        description: `The site is made according to the layout from Figma.`,
+        description: `
+        The site is made according to the layout from Figma.
+        With adaptive for 380px, 768px, 1220px and higher screens.
+        `,
         technologies: [
             'HTML', 'CSS', 'SCSS'
         ],
@@ -253,7 +269,10 @@ export const projects: ProjectType[] = [
         demoUrl: 'https://vitalyabedik.github.io/Redev.HTML-CSS.Final-project/',
         githubUrl: 'https://github.com/vitalyabedik/Redev.HTML-CSS.Final-project',
         image: beautyShopAppImage,
-        description: `The site is made according to the layout from Figma during Redev.`,
+        description: `
+        The site is made according to the layout from Figma. 
+        With some adaptive.
+        `,
         technologies: [
             'HTML', 'CSS', 'SCSS'
         ],
