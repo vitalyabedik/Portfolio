@@ -1,4 +1,4 @@
-import { IconType } from 'react-icons';
+import {IconType} from 'react-icons';
 import {FaReact, FaYarn} from 'react-icons/fa';
 import {
     SiAntdesign, SiApollographql,
@@ -21,19 +21,29 @@ import {DiCss3Full, DiJavascript1, DiNpm, DiSass} from 'react-icons/di';
 import {BsGit} from 'react-icons/bs';
 import {AiOutlineCloudServer} from 'react-icons/ai';
 
+import weatherAppImage from '../assets/images/weather-app.png'
+import todolistAppImage from '../assets/images/todolist-app.png'
+import socialNetworkAppImage from '../assets/images/social-network-app.png'
+import counterAppImage from '../assets/images/counter-app.png'
+import reactCheatSheepAppImage from '../assets/images/react-cheat-sheet-app.png'
+import plantsAppImage from '../assets/images/plants-app.png'
+import beautyShopAppImage from '../assets/images/beauty-shop-app.png'
 
 
 export type SkillType = {
-    title: string;
-    icon: IconType;
-    color: string;
+    title: string
+    icon: IconType
+    color: string
 }
 
 export type ProjectType = {
-    title: string;
-    url: string;
-    img: string
-    technologies: string
+    title: string
+    demoUrl: string
+    githubUrl: string
+    image: string
+    description: string
+    technologies: string[]
+    badge: string
 }
 
 export const skills: SkillType[] = [
@@ -162,50 +172,91 @@ export const skills: SkillType[] = [
 export const projects: ProjectType[] = [
     {
         title: 'Weather and Notes',
-        url: 'https://vitalyabedik.github.io/weather-test/',
-        img: '',
-        technologies: 'React, Redux, JavaScript, AntDesign',
+        demoUrl: 'https://vitalyabedik.github.io/weather-test/',
+        githubUrl: '',
+        image: weatherAppImage,
+        description: `An application that displays the weather in populated areas 
+        with additional visualization. At the first stage, 
+        the user's location is determined automatically. Also user can do some notes and see it in calendar.`,
+        technologies: [
+            'React', 'Redux', 'Redux Thunk', 'Redux Persist', 'JavaScript', 'HTML', 'CSS',
+            'CSS modules', 'SCSS', 'Ant Design', 'Axios', 'moment-js', 'eslint-config-airbnb',
+            'REST API',
+        ],
+        badge: 'Test task'
     },
     {
         title: 'Todolist',
-        url: '',
-        img: '',
-        technologies: 'React, Redux, TypeScript',
+        demoUrl: '',
+        githubUrl: '',
+        image: todolistAppImage,
+        description: `It is a list of tasks. You can combine tasks into groups, 
+        delete/add new ones, as well as change their names. 
+        There is a filter for sorting tasks by the degree of their completion`,
+        technologies: [
+            'React', 'Redux Toolkit', 'TypeScript', 'HTML', 'CSS', 'Styled components',
+            'Material UI', 'React Router Dom 6', 'React Query', 'React Hook Form',
+            'Storybook', 'Jest', 'Axios', 'REST API',
+        ],
+        badge: 'IT-Incubator'
     },
     {
         title: 'Social Network',
-        url: '',
-        img: '',
-        technologies: 'React, Redux, TypeScript',
-    },
-    {
-        title: 'Food Recipes',
-        url: '',
-        img: '',
-        technologies: 'React, Redux, TypeScript',
+        demoUrl: 'https://vitalyabedik.github.io/it-incubator.samurai-way/',
+        githubUrl: 'https://github.com/vitalyabedik/it-incubator.samurai-way',
+        image: socialNetworkAppImage,
+        description: `This website project is a possible representation of a social network like VKONTAKTE or Facebook. 
+        The project is in a development project`,
+        technologies: [
+            'React (class components)', 'Redux', 'Redux Thunk', 'TypeScript', 'HTML', 'CSS',
+            'CSS modules', 'SCSS', 'React Router Dom 5', 'Redux Form', 'Reselect', 'Axios', 'REST API'
+        ],
+        badge: 'IT-Incubator'
     },
     {
         title: 'Counter',
-        url: '',
-        img: '',
-        technologies: 'React, Redux, TypeScript',
+        demoUrl: 'https://vitalyabedik.github.io/Counter/',
+        githubUrl: 'https://github.com/vitalyabedik/Counter',
+        image: counterAppImage,
+        description: `Counter is a test project which (to tell the truth) 
+        doesn't have a lot of practical use. It allows to do some settings which influence 
+        on the way how the counter works.`,
+        technologies: [
+            'React', 'Redux', 'Redux Thunk', 'TypeScript', 'HTML', 'CSS', 'CSS modules', 'SCSS',
+        ],
+        badge: 'IT-Incubator'
     },
     {
         title: 'React Cheat Sheet',
-        url: '',
-        img: '',
-        technologies: 'React, Redux, JavaScript',
+        demoUrl: 'https://vitalyabedik.github.io/Redev.React.1-project.React-cheatsheet/',
+        githubUrl: 'https://github.com/vitalyabedik/Redev.React.1-project.React-cheatsheet',
+        image: reactCheatSheepAppImage,
+        description: `Comprehensive React cheatsheet for beginners.`,
+        technologies: [
+            'React', 'JavaScript', 'HTML', 'CSS', 'SASS', 'React Router Dom 6', 'Ant Design', 'React Code Blocks'
+        ],
+        badge: 'Redev Education'
     },
     {
         title: 'Plants',
-        url: '',
-        img: '',
-        technologies: 'HTML, CSS',
+        demoUrl: 'https://rolling-scopes-school.github.io/vitalyabedik-JSFEPRESCHOOL2022Q4/plants/',
+        githubUrl: 'private repository',
+        image: plantsAppImage,
+        description: `The site is made according to the layout from Figma.`,
+        technologies: [
+            'HTML', 'CSS', 'SCSS'
+        ],
+        badge: 'RS School'
     },
     {
         title: 'Beauty Shop',
-        url: '',
-        img: '',
-        technologies: 'HTML, CSS',
+        demoUrl: 'https://vitalyabedik.github.io/Redev.HTML-CSS.Final-project/',
+        githubUrl: 'https://github.com/vitalyabedik/Redev.HTML-CSS.Final-project',
+        image: beautyShopAppImage,
+        description: `The site is made according to the layout from Figma during Redev.`,
+        technologies: [
+            'HTML', 'CSS', 'SCSS'
+        ],
+        badge: 'Redev Education'
     },
 ];
