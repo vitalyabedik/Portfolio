@@ -6,7 +6,6 @@ import {FooterContacts, FooterContainer, FooterInfo, FooterWrapper,} from './Foo
 import {SocialContacts} from '../../components/SocialContacts';
 import {Title2} from '../../components';
 
-
 export const Footer = () => {
     return (
         <FooterWrapper>

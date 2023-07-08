@@ -26,9 +26,7 @@ export const Project: React.FC<ProjectType> = (props) => {
 
     return (
         <ProjectContainer>
-            <ProjectImage backgroundimage={image}>
-                <ProjectLink>See project</ProjectLink>
-            </ProjectImage>
+            <ProjectImage backgroundimage={image}/>
             <ProjectMainInfo>
                 <ProjectInfo>
                     <ProjectHeader>
