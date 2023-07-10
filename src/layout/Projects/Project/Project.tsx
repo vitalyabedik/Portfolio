@@ -35,9 +35,9 @@ export const Project: React.FC<ProjectType> = (props) => {
                     </ProjectHeader>
                     <ProjectStack>
                         {
-                            technologies.map(technology => {
+                            technologies.map((technology, id) => {
                                 return (
-                                    <ProjectStackItem>{technology}</ProjectStackItem>
+                                    <ProjectStackItem key={id}>{technology}</ProjectStackItem>
                                 )
                             })
                         }
