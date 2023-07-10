@@ -11,7 +11,8 @@ export const ContactFormContainer = styled.div`
 `
 
 export const Form = styled.form`
-  width: 360px;
+  width: 700px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,12 +35,12 @@ export const FormInput = styled.input`
   padding: 0;
   background: 0 0;
   border: none;
-  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid rgba(255,255,255,.5);
   resize: none;
   outline: 0;
   border-radius: 0;
   
-  &:active {
+  &:focus-visible {
     border-color: #4bffa5;
   }
   
@@ -56,12 +57,12 @@ export const MessageField = styled.textarea`
   padding: 0;
   background: 0 0;
   border: none;
-  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid rgba(255,255,255,.5);
   resize: none;
   outline: 0;
   border-radius: 0;
-  
-  &:active {
+
+  &:focus-visible {
     border-color: #4bffa5;
   }
 `

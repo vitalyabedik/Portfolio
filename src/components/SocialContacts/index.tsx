@@ -1,12 +1,12 @@
 import React from 'react';
 
+import {IconLink} from './SocialContacts.styled';
 import { useTheme } from 'styled-components';
 import {
     RiGithubFill, RiLinkedinBoxFill, RiTelegramFill
 } from 'react-icons/ri';
-import {Icon} from '../Icon';
-import {IconLink} from './SocialContacts.styled';
 
+import {Icon} from '../Icon';
 
 type SocialLinksPropsType = {
     iconSize: string
@@ -17,14 +17,6 @@ export const SocialContacts: React.FC<SocialLinksPropsType> = ({ iconSize }) => 
 
     return (
         <>
-            <IconLink href="https://github.com/vitalyabedik" target="_blank">
-                <Icon
-                    icon={RiGithubFill}
-                    size={iconSize}
-                    // color={theme?.colors.primaryLight}
-                    color={'#fff'}
-                />
-            </IconLink>
             <IconLink
                 href="https://www.linkedin.com/in/vitalyabedik/"
                 target="_blank"
@@ -39,6 +31,14 @@ export const SocialContacts: React.FC<SocialLinksPropsType> = ({ iconSize }) => 
             <IconLink href="https://t.me/vitalibedik" target="_blank">
                 <Icon
                     icon={RiTelegramFill}
+                    size={iconSize}
+                    // color={theme?.colors.primaryLight}
+                    color={'#fff'}
+                />
+            </IconLink>
+            <IconLink href="https://github.com/vitalyabedik" target="_blank">
+                <Icon
+                    icon={RiGithubFill}
                     size={iconSize}
                     // color={theme?.colors.primaryLight}
                     color={'#fff'}

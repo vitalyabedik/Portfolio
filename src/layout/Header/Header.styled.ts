@@ -5,6 +5,7 @@ export const HeaderWrapper = styled.header`
   left: 0;
   top: 0;
   width: 100%;
+  background-color: rgb(0 0 0 /74%);
 `
 
 export const HeaderContainer = styled.div`
