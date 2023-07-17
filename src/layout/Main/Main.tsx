@@ -1,5 +1,6 @@
 import React from 'react';
 import {Fade} from 'react-awesome-reveal';
+import ReactTypingEffect from 'react-typing-effect';
 
 import {Container} from '../../App.styled';
 import {Greeting, GreetingTitle, InfoText, MainContainer, MainInfo, MainWrapper} from './Main.styled';
@@ -18,7 +19,16 @@ export const Main = () => {
                                     <p>Front-end Developer</p>
                                     <p>Based in Soligorsk.</p>
                                 </Title1>
-                                <GreetingTitle>I develop <Span>websites</Span></GreetingTitle>
+                                <GreetingTitle>
+                                    <Span>
+                                        <ReactTypingEffect
+                                            speed={100}
+                                            typingDelay={1000}
+                                            eraseDelay={1000}
+                                            text={["I develop websites", "I love programing"]}
+                                        />
+                                    </Span>
+                                </GreetingTitle>
                             </Greeting>
                             <InfoText>
                                 <p>E: vitalya.bedik@gmail.com</p>

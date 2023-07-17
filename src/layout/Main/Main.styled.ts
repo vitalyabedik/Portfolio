@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 import me from '../../assets/images/myPhoto.png'
 
@@ -65,19 +65,6 @@ export const Greeting = styled.div`
   }
 `
 
-// The typing effect animation
-const typingAnimation = keyframes`
-  from { width: 0; }
-  to { width: 100%; }
-`;
-
-// The typewriter cursor effect animation
-const blinkCaretAnimation = keyframes`
-  from, to { border-color: transparent; }
-  //50% { border-color: orange; }
-  50% { border-color: #4bffa5; }
-`;
-
 export const GreetingTitle = styled.h1`
   padding-top: 120px;
   font-family: Roboto;
@@ -87,12 +74,7 @@ export const GreetingTitle = styled.h1`
   letter-spacing: .15em;
   font-weight: 300;
 
-  &::after {
-    content: '';
-    //border-right: 0.15em solid orange;
-    border-right: 0.15em solid #4bffa5;
-    animation: ${typingAnimation} 1s steps(40, end), ${blinkCaretAnimation} 0.75s step-end infinite;
-  }
+
 
   @media (max-width: 976px) {
     padding-top: 150px;
@@ -112,18 +94,6 @@ export const GreetingTitle = styled.h1`
     line-height: 3.8rem;
   }
 `
-
-
-// Styled component for typing effect
-export const TypingEffect = styled.span`
-  overflow: hidden;
-  //border-right: 0.15em solid orange; /* Change the border style as needed */
-  border-right: 0.15em solid #4bffa5; /* Change the border style as needed */
-  white-space: nowrap;
-  animation: ${typingAnimation} 1s steps(40, end), ${blinkCaretAnimation} 0.75s step-end infinite;
-`;
-
-
 
 export const InfoText = styled.div`
   color: #fff;
