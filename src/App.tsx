@@ -1,9 +1,7 @@
 import React from 'react';
 
-
 import {Header} from './layout/Header';
 import {Skills} from './layout/Skills';
-import {HireMe} from './layout/HireMe';
 import {ContactForm} from './layout/ContactForm';
 import {Footer} from './layout/Footer';
 import {Projects} from './layout/Projects';
@@ -21,7 +19,6 @@ function App() {
                     <Main/>
                     <Skills/>
                     <Projects/>
-                    <HireMe/>
                     <ContactForm/>
                 </main>
                 <Footer/>

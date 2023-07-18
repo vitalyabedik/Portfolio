@@ -11,9 +11,9 @@ export const Projects = () => {
     const projects = useContext(ProjectsContext);
 
     return (
-        <ProjectsWrapper>
+        <ProjectsWrapper id="Portfolio">
             <Container>
-                <Title2 id="Portfolio">Projects</Title2>
+                <Title2>Projects</Title2>
                 <ProjectsList>
                     {
                         projects.map((project, id) => {

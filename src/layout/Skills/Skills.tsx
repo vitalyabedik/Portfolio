@@ -22,9 +22,9 @@ export const Skills = () => {
     ));
 
     return (
-        <SkillsWrapper>
+        <SkillsWrapper id="Skills">
             <Container>
-                <Title2 id="Skills">Skills</Title2>
+                <Title2>Skills</Title2>
                 <Fade direction={'up'} delay={300}>
                     <SkillsList>
                         {skillsList}

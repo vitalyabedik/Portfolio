@@ -7,24 +7,67 @@ export const Nav = () => {
         <nav>
             <NavList>
                 <NavItem>
-                    <NavLinkItem href="#Home">
-                        <span>Home</span>
+                    <NavLinkItem
+                    activeClass="active"
+                              to="Home"
+                              spy={true}
+                              smooth={true}
+                              offset={1}
+                              duration={500}
+                     >
+                            Home
                     </NavLinkItem>
-                </NavItem>
-                <NavItem>
-                    <NavLinkItem href="#Skills">
-                        <span>Skills</span>
+                    <NavLinkItem
+                        activeClass="active"
+                              to="Skills"
+                              spy={true}
+                              smooth={true}
+                              offset={1}
+                              duration={500}
+                        >
+                            Skills
                     </NavLinkItem>
-                </NavItem>
-                <NavItem>
-                    <NavLinkItem href="#Portfolio">
-                        <span>Portfolio</span>
+                    <NavLinkItem
+                        activeClass="active"
+                              to="Portfolio"
+                              spy={true}
+                              smooth={true}
+                              offset={1}
+                              duration={500}
+                        >
+                            Portfolio
                     </NavLinkItem>
-                </NavItem>
-                <NavItem>
-                    <NavLinkItem href="#Contact">
-                        <span>Contact</span>
+                    <NavLinkItem
+                        activeClass="active"
+                              to="Contact"
+                              spy={true}
+                              smooth={true}
+                              offset={1}
+                              duration={500}
+                        >
+                            Contact
                     </NavLinkItem>
+
+
+
+                {/*    <NavLinkItem href="#Home">*/}
+                {/*        <span>Home</span>*/}
+                {/*    </NavLinkItem>*/}
+                {/*</NavItem>*/}
+                {/*<NavItem>*/}
+                {/*    <NavLinkItem href="#Skills">*/}
+                {/*        <span>Skills</span>*/}
+                {/*    </NavLinkItem>*/}
+                {/*</NavItem>*/}
+                {/*<NavItem>*/}
+                {/*    <NavLinkItem href="#Portfolio">*/}
+                {/*        <span>Portfolio</span>*/}
+                {/*    </NavLinkItem>*/}
+                {/*</NavItem>*/}
+                {/*<NavItem>*/}
+                {/*    <NavLinkItem href="#Contact">*/}
+                {/*        <span>Contact</span>*/}
+                {/*    </NavLinkItem>*/}
                 </NavItem>
             </NavList>
         </nav>

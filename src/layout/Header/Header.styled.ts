@@ -6,6 +6,7 @@ export const HeaderWrapper = styled.header`
   top: 0;
   width: 100%;
   background-color: rgb(0 0 0 /74%);
+  z-index: 100;
 `
 
 export const HeaderContainer = styled.div`

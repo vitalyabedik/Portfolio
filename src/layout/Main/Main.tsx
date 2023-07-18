@@ -9,13 +9,13 @@ import {Span, Title1} from '../../components';
 
 export const Main = () => {
     return (
-        <MainWrapper>
+        <MainWrapper id="Home">
             <MainContainer>
                 <Container>
-                    <Fade direction={'down'} delay={300}>
-                        <MainInfo>
+                    <MainInfo>
+                        <Fade direction={'down'} delay={300}>
                             <Greeting>
-                                <Title1 id="Home">Hello, <Span>I’m Vitali</Span>
+                                <Title1 >Hello, <Span>I’m Vitali</Span>
                                     <p>Front-end Developer</p>
                                     <p>Based in Soligorsk.</p>
                                 </Title1>
@@ -25,7 +25,7 @@ export const Main = () => {
                                             speed={100}
                                             typingDelay={1000}
                                             eraseDelay={1000}
-                                            text={["I develop websites", "I love programing"]}
+                                            text={['I develop websites', 'I love programming']}
                                         />
                                     </Span>
                                 </GreetingTitle>
@@ -34,8 +34,8 @@ export const Main = () => {
                                 <p>E: vitalya.bedik@gmail.com</p>
                                 <p>T: +375 (33) 359 90 91</p>
                             </InfoText>
-                        </MainInfo>
-                    </Fade>
+                        </Fade>
+                    </MainInfo>
                 </Container>
             </MainContainer>
         </MainWrapper>

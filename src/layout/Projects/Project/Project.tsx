@@ -13,7 +13,6 @@ import {RiGithubFill} from 'react-icons/ri';
 import {BiLinkExternal} from 'react-icons/bi';
 import {Fade} from 'react-awesome-reveal';
 
-
 export const Project: React.FC<ProjectType> = (props) => {
     const {
         title,

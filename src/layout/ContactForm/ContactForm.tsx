@@ -11,10 +11,10 @@ import {Button} from '../../components/Button';
 
 export const ContactForm = () => {
     return (
-        <ContactFormWrapper>
+        <ContactFormWrapper id="Contact">
             <Container>
                 <ContactFormContainer>
-                    <Title2 id="Contact">Contacts</Title2>
+                    <Title2>Contacts</Title2>
                     <Form>
                         <FormInput placeholder="Name"/>
                         <FormInput placeholder="Email" type="email"/>
