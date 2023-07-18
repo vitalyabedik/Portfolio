@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 import me from '../../assets/images/myPhoto.png'
 
-
 export const MainWrapper = styled.section`
   @media (max-width: 768px) {
     padding-top: 0;

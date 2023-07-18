@@ -25,11 +25,9 @@ export const Skills = () => {
         <SkillsWrapper id="Skills">
             <Container>
                 <Title2>Skills</Title2>
-                <Fade direction={'up'} delay={300}>
                     <SkillsList>
                         {skillsList}
                     </SkillsList>
-                </Fade>
             </Container>
         </SkillsWrapper>
     );

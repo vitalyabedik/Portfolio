@@ -8,7 +8,7 @@ import {Title2} from '../../components';
 
 export const Footer = () => {
     return (
-        <FooterWrapper>
+        <FooterWrapper id='Contact'>
             <Container>
                 <FooterContainer>
                     <Title2>You can find me here:</Title2>

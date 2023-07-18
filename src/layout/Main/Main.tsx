@@ -13,28 +13,30 @@ export const Main = () => {
             <MainContainer>
                 <Container>
                     <MainInfo>
-                        <Fade direction={'down'} delay={300}>
                             <Greeting>
+                        <Fade direction={'down'} delay={300}>
                                 <Title1 >Hello, <Span>I’m Vitali</Span>
                                     <p>Front-end Developer</p>
                                     <p>Based in Soligorsk.</p>
                                 </Title1>
+                        </Fade>
                                 <GreetingTitle>
                                     <Span>
                                         <ReactTypingEffect
                                             speed={100}
                                             typingDelay={1000}
                                             eraseDelay={1000}
-                                            text={['I develop websites', 'I love programming']}
+                                            text={['I develop websites', 'I love coding']}
                                         />
                                     </Span>
                                 </GreetingTitle>
                             </Greeting>
                             <InfoText>
+                        <Fade direction={'down'} delay={300}>
                                 <p>E: vitalya.bedik@gmail.com</p>
                                 <p>T: +375 (33) 359 90 91</p>
-                            </InfoText>
                         </Fade>
+                            </InfoText>
                     </MainInfo>
                 </Container>
             </MainContainer>
