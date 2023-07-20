@@ -14,7 +14,7 @@ export const Main = () => {
                 <Container>
                     <MainInfo>
                             <Greeting>
-                        <Fade direction={'down'} delay={300}>
+                        <Fade direction={'down'} delay={300} triggerOnce={true}>
                                 <Title1 >Hello, <Span>I’m Vitali</Span>
                                     <p>Front-end Developer</p>
                                     <p>Based in Soligorsk.</p>
@@ -32,7 +32,7 @@ export const Main = () => {
                                 </GreetingTitle>
                             </Greeting>
                             <InfoText>
-                        <Fade direction={'down'} delay={300}>
+                        <Fade direction={'down'} delay={300} triggerOnce={true}>
                                 <p>E: vitalya.bedik@gmail.com</p>
                                 <p>T: +375 (33) 359 90 91</p>
                         </Fade>

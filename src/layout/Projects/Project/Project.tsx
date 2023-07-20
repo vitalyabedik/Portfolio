@@ -25,7 +25,7 @@ export const Project: React.FC<ProjectType> = (props) => {
     } = props
 
     return (
-        <Fade direction={'up'} delay={300}>
+        <Fade direction={'up'} delay={300} triggerOnce={true}>
             <ProjectContainer>
                 <ProjectImage backgroundimage={image}/>
                 <ProjectMainInfo>
