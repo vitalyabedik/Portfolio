@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.f657ffb3.css",
-    "main.js": "/Portfolio/static/js/main.6690271a.js",
-    "static/media/weather-app.png": "/Portfolio/static/media/weather-app.2b499b00d1388c003108.png",
-    "static/media/social-network-app.png": "/Portfolio/static/media/social-network-app.e1fdd32218a02c5bba8b.png",
-    "static/media/myPhoto.png": "/Portfolio/static/media/myPhoto.48687495e2480ad0b9a0.png",
-    "static/media/plants-app.png": "/Portfolio/static/media/plants-app.94e8ecc9fba1b6d68f22.png",
-    "static/media/beauty-shop-app.png": "/Portfolio/static/media/beauty-shop-app.3ffa055a2a222c7c61ff.png",
-    "static/media/react-cheat-sheet-app.png": "/Portfolio/static/media/react-cheat-sheet-app.5cc8d33bdb025a0a066b.png",
-    "static/media/todolist-app.png": "/Portfolio/static/media/todolist-app.69d573dd4305e8558a04.png",
-    "static/media/counter-app.png": "/Portfolio/static/media/counter-app.60efdba5f1bfd2edab64.png",
+    "main.js": "/Portfolio/static/js/main.45d245dd.js",
+    "static/media/weather-app.png": "/Portfolio/static/media/weather-app.5c5d58bc949a73be4cb1.png",
+    "static/media/myPhoto.png": "/Portfolio/static/media/myPhoto.aed50efc90ab49037ff7.png",
+    "static/media/social-network-app.png": "/Portfolio/static/media/social-network-app.f2bd50a183f9d748853d.png",
+    "static/media/plants-app.png": "/Portfolio/static/media/plants-app.925ba1f4594d8c2174f8.png",
+    "static/media/beauty-shop-app.png": "/Portfolio/static/media/beauty-shop-app.b521bf9292272551ff2f.png",
+    "static/media/react-cheat-sheet-app.png": "/Portfolio/static/media/react-cheat-sheet-app.c336e22ff12f409a3b76.png",
+    "static/media/todolist-app.png": "/Portfolio/static/media/todolist-app.1406a7f2c946c85619f2.png",
+    "static/media/counter-app.png": "/Portfolio/static/media/counter-app.0a03d262c94027560213.png",
     "index.html": "/Portfolio/index.html",
     "main.f657ffb3.css.map": "/Portfolio/static/css/main.f657ffb3.css.map",
-    "main.6690271a.js.map": "/Portfolio/static/js/main.6690271a.js.map"
+    "main.45d245dd.js.map": "/Portfolio/static/js/main.45d245dd.js.map"
   },
   "entrypoints": [
     "static/css/main.f657ffb3.css",
-    "static/js/main.6690271a.js"
+    "static/js/main.45d245dd.js"
   ]
 }
