@@ -72,9 +72,7 @@ export const GreetingTitle = styled.h1`
   line-height: 6.4rem;
   letter-spacing: .15em;
   font-weight: 300;
-
-
-
+  
   @media (max-width: 976px) {
     padding-top: 150px;
     font-size: 3.8rem;

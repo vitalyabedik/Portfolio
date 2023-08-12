@@ -18,10 +18,14 @@ export const Form = styled.form`
   align-items: center;
   gap: 10px;
   margin: 50px 0;
-
+  
   @media (max-width: 576px) {
     padding: 0 20px;
   }
+`
+
+export const ButtonWrapper = styled.div`
+  margin-top: 20px;
 `
 
 
