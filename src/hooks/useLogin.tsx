@@ -1,15 +1,9 @@
-import React from "react"
-import axios from 'axios';
 import {useFormik} from 'formik';
 import * as Yup from 'yup'
+import {formApi, FormValueTypes} from '../api';
 
-type InitialValueType = {
-    name: string
-    email: string
-    message: string
-}
 
-const initialValues: InitialValueType = {
+const initialValues: FormValueTypes = {
     name: '',
     email: '',
     message: ''
@@ -22,9 +16,7 @@ export const useLogin = () => {
             email: Yup.string().email("Invalid email address").required("Required"),
             password: Yup.string().min(3, "Password must be 3 characters or more").required("Required"),
         }),
-        onSubmit: async (values) => {
-            await axios.post('https://contact-form-backend.vercel.app/send-message', values)
-        },
+        onSubmit: async (values) => await formApi.sendFormData(values)
     })
 
     return { formik }
