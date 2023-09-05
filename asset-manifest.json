@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.7c353415.css",
-    "main.js": "/Portfolio/static/js/main.45d245dd.js",
+    "main.css": "/Portfolio/static/css/main.07c18276.css",
+    "main.js": "/Portfolio/static/js/main.549674ea.js",
+    "static/media/nft-creative-art.png": "/Portfolio/static/media/nft-creative-art.78d5cb53cf3fb4fa4f83.png",
     "static/media/weather-app.png": "/Portfolio/static/media/weather-app.5c5d58bc949a73be4cb1.png",
     "static/media/myPhoto.png": "/Portfolio/static/media/myPhoto.aed50efc90ab49037ff7.png",
     "static/media/social-network-app.png": "/Portfolio/static/media/social-network-app.f2bd50a183f9d748853d.png",
@@ -11,11 +12,11 @@
     "static/media/todolist-app.png": "/Portfolio/static/media/todolist-app.1406a7f2c946c85619f2.png",
     "static/media/counter-app.png": "/Portfolio/static/media/counter-app.0a03d262c94027560213.png",
     "index.html": "/Portfolio/index.html",
-    "main.7c353415.css.map": "/Portfolio/static/css/main.7c353415.css.map",
-    "main.45d245dd.js.map": "/Portfolio/static/js/main.45d245dd.js.map"
+    "main.07c18276.css.map": "/Portfolio/static/css/main.07c18276.css.map",
+    "main.549674ea.js.map": "/Portfolio/static/js/main.549674ea.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c353415.css",
-    "static/js/main.45d245dd.js"
+    "static/css/main.07c18276.css",
+    "static/js/main.549674ea.js"
   ]
 }
