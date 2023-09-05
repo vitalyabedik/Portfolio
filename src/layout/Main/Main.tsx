@@ -33,8 +33,8 @@ export const Main = () => {
                             </Greeting>
                             <InfoText>
                         <Fade direction={'down'} delay={300} triggerOnce={true}>
-                                <p>E: vitalya.bedik@gmail.com</p>
-                                <p>T: +375 (33) 359 90 91</p>
+                            <p>E: <a href="mailto:vitalya.bedik@gmail.com">vitalya.bedik@gmail.com</a></p>
+                            <p>T: <a href="tel:+375333599091">+375 (33) 359 90 91</a></p>
                         </Fade>
                             </InfoText>
                     </MainInfo>

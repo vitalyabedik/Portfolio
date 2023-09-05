@@ -23,12 +23,14 @@ export const Skills = () => {
 
     return (
         <SkillsWrapper id="Skills">
-            <Container>
-                <Title2>Skills</Title2>
+            <Fade cascade={true} damping={1} delay={300} triggerOnce={true}>
+                <Container>
+                    <Title2>Skills</Title2>
                     <SkillsList>
                         {skillsList}
                     </SkillsList>
-            </Container>
+                </Container>
+            </Fade>
         </SkillsWrapper>
     );
 };

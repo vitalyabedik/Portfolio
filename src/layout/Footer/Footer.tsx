@@ -5,19 +5,22 @@ import {FooterContacts, FooterContainer, FooterInfo, FooterWrapper,} from './Foo
 
 import {SocialContacts} from '../../components/SocialContacts';
 import {Title2} from '../../components';
+import {Fade} from 'react-awesome-reveal';
 
 export const Footer = () => {
     return (
         <FooterWrapper id='Contact'>
-            <Container>
-                <FooterContainer>
-                    <Title2>You can find me here:</Title2>
-                    <FooterContacts>
-                        <SocialContacts iconSize="60px"/>
-                    </FooterContacts>
-                    <FooterInfo>© 2023. All Rights Reserved.</FooterInfo>
-                </FooterContainer>
-            </Container>
+            <Fade delay={300} triggerOnce={true}>
+                <Container>
+                    <FooterContainer>
+                        <Title2>You can find me here:</Title2>
+                        <FooterContacts>
+                            <SocialContacts iconSize="60px"/>
+                        </FooterContacts>
+                        <FooterInfo>© 2023. All Rights Reserved.</FooterInfo>
+                    </FooterContainer>
+                </Container>
+            </Fade>
         </FooterWrapper>
     );
 };

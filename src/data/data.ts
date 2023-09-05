@@ -28,6 +28,7 @@ import counterAppImage from '../assets/images/counter-app.png'
 import reactCheatSheepAppImage from '../assets/images/react-cheat-sheet-app.png'
 import plantsAppImage from '../assets/images/plants-app.png'
 import beautyShopAppImage from '../assets/images/beauty-shop-app.png'
+import nftAppImage from '../assets/images/nft-creative-art.png'
 
 
 export type SkillType = {
@@ -222,17 +223,16 @@ export const projects: ProjectType[] = [
         badge: 'IT-Incubator'
     },
     {
-        title: 'Counter',
-        demoUrl: 'https://vitalyabedik.github.io/Counter/',
-        githubUrl: 'https://github.com/vitalyabedik/Counter',
-        image: counterAppImage,
+        title: 'NFT-creative-art',
+        demoUrl: 'https://vitalyabedik.github.io/NFT-creative-art/',
+        githubUrl: 'https://github.com/vitalyabedik/NFT-creative-art',
+        image: nftAppImage,
         description: `
-        Counter is a test project which (to tell the truth) 
-        doesn't have a lot of practical use. It allows to do some settings which influence 
-        on the way how the counter works.
+         The site is made according to the layout from Figma. With adaptive.
         `,
         technologies: [
-            'React', 'Redux', 'Redux Thunk', 'TypeScript', 'HTML', 'CSS', 'CSS modules'
+            'React', 'TypeScript', 'Styled components', 'HTML', 'CSS',
+            'react-awesome-reveal', 'react-curved-text', 'react-scroll', 'eslint', 'prettier', 'stylelint',
         ],
         badge: 'IT-Incubator'
     },
@@ -249,6 +249,21 @@ export const projects: ProjectType[] = [
             'React', 'JavaScript', 'HTML', 'CSS', 'SASS', 'React Router Dom 6', 'Ant Design', 'React Code Blocks'
         ],
         badge: 'Redev Education'
+    },
+    {
+        title: 'Counter',
+        demoUrl: 'https://vitalyabedik.github.io/Counter/',
+        githubUrl: 'https://github.com/vitalyabedik/Counter',
+        image: counterAppImage,
+        description: `
+        Counter is a test project which (to tell the truth) 
+        doesn't have a lot of practical use. It allows to do some settings which influence 
+        on the way how the counter works.
+        `,
+        technologies: [
+            'React', 'Redux', 'Redux Thunk', 'TypeScript', 'HTML', 'CSS', 'CSS modules'
+        ],
+        badge: 'IT-Incubator'
     },
     {
         title: 'Plants',
