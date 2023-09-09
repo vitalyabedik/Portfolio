@@ -174,7 +174,7 @@ export const projects: ProjectType[] = [
     {
         title: 'Weather and Notes',
         demoUrl: 'https://vitalyabedik.github.io/weather-test/',
-        githubUrl: '',
+        githubUrl: 'https://github.com/vitalyabedik/weather-test',
         image: weatherAppImage,
         description: `
         An application that displays the weather in populated areas 
@@ -191,8 +191,8 @@ export const projects: ProjectType[] = [
     },
     {
         title: 'Todolist',
-        demoUrl: '',
-        githubUrl: '',
+        demoUrl: 'https://vitalyabedik.github.io/it-incubator.todolist-learning/',
+        githubUrl: 'https://github.com/vitalyabedik/it-incubator.todolist-learning',
         image: todolistAppImage,
         description: `
         It is a list of tasks. You can combine tasks into groups, 
@@ -268,7 +268,7 @@ export const projects: ProjectType[] = [
     {
         title: 'Plants',
         demoUrl: 'https://rolling-scopes-school.github.io/vitalyabedik-JSFEPRESCHOOL2022Q4/plants/',
-        githubUrl: 'private repository',
+        githubUrl: 'https://github.com/rolling-scopes-school/vitalyabedik-JSFEPRESCHOOL2022Q4/tree/plants-part2',
         image: plantsAppImage,
         description: `
         The site is made according to the layout from Figma.
