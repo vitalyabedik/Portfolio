@@ -14,13 +14,15 @@ import {
     SiStyledcomponents,
     SiWebpack,
 } from 'react-icons/si';
+
 import {
-    TbBrandHtml5, TbBrandStorybook, TbBrandTypescript
+    TbBrandHtml5, TbBrandStorybook, TbBrandTypescript, TbBrandRadixUi
 } from 'react-icons/tb';
 import {DiCss3Full, DiJavascript1, DiNpm, DiSass} from 'react-icons/di';
 import {BsGit} from 'react-icons/bs';
 import {AiOutlineCloudServer} from 'react-icons/ai';
 
+import flashcardsImage from '../assets/images/flashcards.png'
 import weatherAppImage from '../assets/images/weather-app.png'
 import todolistAppImage from '../assets/images/todolist-app.png'
 import socialNetworkAppImage from '../assets/images/social-network-app.png'
@@ -94,6 +96,11 @@ export const skills: SkillType[] = [
         color: '#fff',
     },
     {
+        title: 'Radix UI',
+        icon: TbBrandRadixUi,
+        color: '#FFF',
+    },
+    {
         title: 'Ant Design',
         icon: SiAntdesign,
         color: '#0170fe',
@@ -118,11 +125,11 @@ export const skills: SkillType[] = [
         icon: SiReactrouter,
         color: '#f44250',
     },
-    // {
-    //     title: 'React Hook Form',
-    //     icon: SiReacthookform,
-    //     color: '#ec5990',
-    // },
+    {
+        title: 'React Hook Form',
+        icon: SiReacthookform,
+        color: '#ec5990',
+    },
     // {
     //     title: 'React Query',
     //     icon: SiReactquery,
@@ -172,22 +179,21 @@ export const skills: SkillType[] = [
 
 export const projects: ProjectType[] = [
     {
-        title: 'Weather and Notes',
-        demoUrl: 'https://vitalyabedik.github.io/weather-test/',
-        githubUrl: 'https://github.com/vitalyabedik/weather-test',
-        image: weatherAppImage,
+        title: 'Flashcards',
+        demoUrl: 'https://flashcards-learning.vercel.app/',
+        githubUrl: 'https://github.com/vitalyabedik/flashcards',
+        image: flashcardsImage,
         description: `
-        An application that displays the weather in populated areas 
-        with additional visualization. At the first stage, 
-        the user's location is determined automatically. Also user can do some notes and see it in calendar.
-        With full adaptive.
+        It is interactive and customizable platform for learning through flashcards. 
+        Users can easily create, organize, and study flashcards on various subjects, 
+        enhancing their learning experience and knowledge retention.
         `,
         technologies: [
-            'React', 'Redux', 'Redux Thunk', 'Redux Persist', 'JavaScript', 'HTML', 'CSS',
-            'CSS modules', 'SCSS', 'Ant Design', 'Axios', 'moment-js', 'eslint-config-airbnb',
-            'REST API',
+            'React', 'Redux Toolkit', 'RTK Query', 'TypeScript', 'HTML', 'CSS Modules',
+            'Radix UI', 'React Router Dom 6', 'React Hook Form',
+            'Storybook',  'REST API', 'react-toastify', 'zod', 'vite'
         ],
-        badge: 'Test task'
+        badge: 'IT-Incubator'
     },
     {
         title: 'Todolist',
@@ -202,7 +208,7 @@ export const projects: ProjectType[] = [
         `,
         technologies: [
             'React', 'Redux Toolkit', 'TypeScript', 'HTML', 'CSS', 'Styled components',
-            'Material UI', 'React Router Dom 6', 'React Query', 'React Hook Form',
+            'Material UI', 'React Router Dom 6', 'React Hook Form',
             'Storybook', 'Jest', 'Axios', 'REST API',
         ],
         badge: 'IT-Incubator'
@@ -235,6 +241,24 @@ export const projects: ProjectType[] = [
             'react-awesome-reveal', 'react-curved-text', 'react-scroll', 'eslint', 'prettier', 'stylelint',
         ],
         badge: 'IT-Incubator'
+    },
+    {
+        title: 'Weather and Notes',
+        demoUrl: 'https://vitalyabedik.github.io/weather-test/',
+        githubUrl: 'https://github.com/vitalyabedik/weather-test',
+        image: weatherAppImage,
+        description: `
+        An application that displays the weather in populated areas 
+        with additional visualization. At the first stage, 
+        the user's location is determined automatically. Also user can do some notes and see it in calendar.
+        With full adaptive.
+        `,
+        technologies: [
+            'React', 'Redux', 'Redux Thunk', 'Redux Persist', 'JavaScript', 'HTML', 'CSS',
+            'CSS modules', 'SCSS', 'Ant Design', 'Axios', 'moment-js', 'eslint-config-airbnb',
+            'REST API',
+        ],
+        badge: 'Test task'
     },
     {
         title: 'React Cheat Sheet',
