@@ -28,7 +28,7 @@ export const SocialContacts: React.FC<SocialLinksPropsType> = ({ iconSize }) => 
                     color={'#fff'}
                 />
             </IconLink>
-            <IconLink href="https://t.me/vitalibedik" target="_blank">
+            <IconLink href="https://t.me/vitalyabedik" target="_blank" rel="noreferrer">
                 <Icon
                     icon={RiTelegramFill}
                     size={iconSize}

@@ -24,7 +24,7 @@ import {AiOutlineCloudServer} from 'react-icons/ai';
 
 import flashcardsImage from '../assets/images/flashcards.png'
 import weatherAppImage from '../assets/images/weather-app.png'
-import todolistAppImage from '../assets/images/todolist-app.png'
+import taskManagerAppImage from '../assets/images/task-manager-app.png'
 import socialNetworkAppImage from '../assets/images/social-network-app.png'
 import counterAppImage from '../assets/images/counter-app.png'
 import reactCheatSheepAppImage from '../assets/images/react-cheat-sheet-app.png'
@@ -189,17 +189,17 @@ export const projects: ProjectType[] = [
         enhancing their learning experience and knowledge retention.
         `,
         technologies: [
-            'React', 'Redux Toolkit', 'RTK Query', 'TypeScript', 'HTML', 'CSS Modules',
+            'React', 'Redux Toolkit', 'RTK Query', 'TypeScript', 'CSS Modules',
             'Radix UI', 'React Router Dom 6', 'React Hook Form',
             'Storybook',  'REST API', 'react-toastify', 'zod', 'vite'
         ],
         badge: 'IT-Incubator'
     },
     {
-        title: 'Todolist',
-        demoUrl: 'https://vitalyabedik.github.io/it-incubator.todolist-learning/',
-        githubUrl: 'https://github.com/vitalyabedik/it-incubator.todolist-learning',
-        image: todolistAppImage,
+        title: 'Task Manager',
+        demoUrl: 'https://vitalyabedik.github.io/task-manager/',
+        githubUrl: 'https://github.com/vitalyabedik/task-manager',
+        image: taskManagerAppImage,
         description: `
         It is a list of tasks. You can combine tasks into groups, 
         delete/add new ones, as well as change their names. 
@@ -207,7 +207,7 @@ export const projects: ProjectType[] = [
         The project is in a development project.
         `,
         technologies: [
-            'React', 'Redux Toolkit', 'TypeScript', 'HTML', 'CSS', 'Styled components',
+            'React', 'Redux Toolkit', 'TypeScript', 'Styled components',
             'Material UI', 'React Router Dom 6', 'React Hook Form',
             'Storybook', 'Jest', 'Axios', 'REST API',
         ],
@@ -223,7 +223,7 @@ export const projects: ProjectType[] = [
         The project is in a development project.
         `,
         technologies: [
-            'React (class components)', 'Redux', 'Redux Thunk', 'TypeScript', 'HTML', 'CSS',
+            'React (class components)', 'Redux', 'Redux Thunk', 'TypeScript',
             'CSS modules', 'SCSS', 'React Router Dom 5', 'Redux Form', 'Reselect', 'Axios', 'REST API'
         ],
         badge: 'IT-Incubator'
@@ -237,7 +237,7 @@ export const projects: ProjectType[] = [
          The site is made according to the layout from Figma. With adaptive.
         `,
         technologies: [
-            'React', 'TypeScript', 'Styled components', 'HTML', 'CSS',
+            'React', 'TypeScript', 'Styled components',
             'react-awesome-reveal', 'react-curved-text', 'react-scroll', 'eslint', 'prettier', 'stylelint',
         ],
         badge: 'IT-Incubator'
@@ -254,7 +254,7 @@ export const projects: ProjectType[] = [
         With full adaptive.
         `,
         technologies: [
-            'React', 'Redux', 'Redux Thunk', 'Redux Persist', 'JavaScript', 'HTML', 'CSS',
+            'React', 'Redux', 'Redux Thunk', 'Redux Persist', 'JavaScript',
             'CSS modules', 'SCSS', 'Ant Design', 'Axios', 'moment-js', 'eslint-config-airbnb',
             'REST API',
         ],
@@ -270,7 +270,7 @@ export const projects: ProjectType[] = [
         Adaptive layout in progress.
         `,
         technologies: [
-            'React', 'JavaScript', 'HTML', 'CSS', 'SASS', 'React Router Dom 6', 'Ant Design', 'React Code Blocks'
+            'React', 'JavaScript', 'SCSS', 'React Router Dom 6', 'Ant Design', 'React Code Blocks'
         ],
         badge: 'Redev Education'
     },
@@ -285,7 +285,7 @@ export const projects: ProjectType[] = [
         on the way how the counter works.
         `,
         technologies: [
-            'React', 'Redux', 'Redux Thunk', 'TypeScript', 'HTML', 'CSS', 'CSS modules'
+            'React', 'Redux', 'Redux Thunk', 'TypeScript', 'CSS modules'
         ],
         badge: 'IT-Incubator'
     },
@@ -299,7 +299,7 @@ export const projects: ProjectType[] = [
         With adaptive for 380px, 768px, 1220px and higher screens.
         `,
         technologies: [
-            'HTML', 'CSS', 'SCSS'
+            'SCSS'
         ],
         badge: 'RS School'
     },
@@ -313,7 +313,7 @@ export const projects: ProjectType[] = [
         With some adaptive.
         `,
         technologies: [
-            'HTML', 'CSS', 'SCSS'
+          'SCSS'
         ],
         badge: 'Redev Education'
     },
