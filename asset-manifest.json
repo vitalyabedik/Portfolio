@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.07c18276.css",
-    "main.js": "/Portfolio/static/js/main.e962c93f.js",
+    "main.js": "/Portfolio/static/js/main.76c2d94f.js",
     "static/media/nft-creative-art.png": "/Portfolio/static/media/nft-creative-art.78d5cb53cf3fb4fa4f83.png",
     "static/media/weather-app.png": "/Portfolio/static/media/weather-app.5c5d58bc949a73be4cb1.png",
     "static/media/social-network-app.png": "/Portfolio/static/media/social-network-app.1eb589b0c15e4af630a5.png",
@@ -10,14 +10,14 @@
     "static/media/flashcards.png": "/Portfolio/static/media/flashcards.09f9ba6347196c49f5c2.png",
     "static/media/beauty-shop-app.png": "/Portfolio/static/media/beauty-shop-app.b521bf9292272551ff2f.png",
     "static/media/react-cheat-sheet-app.png": "/Portfolio/static/media/react-cheat-sheet-app.c336e22ff12f409a3b76.png",
-    "static/media/todolist-app.png": "/Portfolio/static/media/todolist-app.1406a7f2c946c85619f2.png",
+    "static/media/task-manager-app.png": "/Portfolio/static/media/task-manager-app.1406a7f2c946c85619f2.png",
     "static/media/counter-app.png": "/Portfolio/static/media/counter-app.0a03d262c94027560213.png",
     "index.html": "/Portfolio/index.html",
     "main.07c18276.css.map": "/Portfolio/static/css/main.07c18276.css.map",
-    "main.e962c93f.js.map": "/Portfolio/static/js/main.e962c93f.js.map"
+    "main.76c2d94f.js.map": "/Portfolio/static/js/main.76c2d94f.js.map"
   },
   "entrypoints": [
     "static/css/main.07c18276.css",
-    "static/js/main.e962c93f.js"
+    "static/js/main.76c2d94f.js"
   ]
 }
