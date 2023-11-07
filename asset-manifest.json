@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.07c18276.css",
-    "main.js": "/Portfolio/static/js/main.76c2d94f.js",
+    "main.js": "/Portfolio/static/js/main.0333154c.js",
     "static/media/nft-creative-art.png": "/Portfolio/static/media/nft-creative-art.78d5cb53cf3fb4fa4f83.png",
     "static/media/weather-app.png": "/Portfolio/static/media/weather-app.5c5d58bc949a73be4cb1.png",
-    "static/media/social-network-app.png": "/Portfolio/static/media/social-network-app.1eb589b0c15e4af630a5.png",
+    "static/media/socialite-app.png": "/Portfolio/static/media/socialite-app.1eb589b0c15e4af630a5.png",
     "static/media/myPhoto.png": "/Portfolio/static/media/myPhoto.aed50efc90ab49037ff7.png",
     "static/media/plants-app.png": "/Portfolio/static/media/plants-app.925ba1f4594d8c2174f8.png",
     "static/media/flashcards.png": "/Portfolio/static/media/flashcards.09f9ba6347196c49f5c2.png",
@@ -14,10 +14,10 @@
     "static/media/counter-app.png": "/Portfolio/static/media/counter-app.0a03d262c94027560213.png",
     "index.html": "/Portfolio/index.html",
     "main.07c18276.css.map": "/Portfolio/static/css/main.07c18276.css.map",
-    "main.76c2d94f.js.map": "/Portfolio/static/js/main.76c2d94f.js.map"
+    "main.0333154c.js.map": "/Portfolio/static/js/main.0333154c.js.map"
   },
   "entrypoints": [
     "static/css/main.07c18276.css",
-    "static/js/main.76c2d94f.js"
+    "static/js/main.0333154c.js"
   ]
 }
