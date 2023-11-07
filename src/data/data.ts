@@ -25,7 +25,7 @@ import {AiOutlineCloudServer} from 'react-icons/ai';
 import flashcardsImage from '../assets/images/flashcards.png'
 import weatherAppImage from '../assets/images/weather-app.png'
 import taskManagerAppImage from '../assets/images/task-manager-app.png'
-import socialNetworkAppImage from '../assets/images/social-network-app.png'
+import socialiteAppImage from '../assets/images/socialite-app.png'
 import counterAppImage from '../assets/images/counter-app.png'
 import reactCheatSheepAppImage from '../assets/images/react-cheat-sheet-app.png'
 import plantsAppImage from '../assets/images/plants-app.png'
@@ -214,16 +214,15 @@ export const projects: ProjectType[] = [
         badge: 'IT-Incubator'
     },
     {
-        title: 'Social Network',
-        demoUrl: 'https://vitalyabedik.github.io/it-incubator.samurai-way/',
-        githubUrl: 'https://github.com/vitalyabedik/it-incubator.samurai-way',
-        image: socialNetworkAppImage,
+        title: 'Socialite',
+        demoUrl: 'https://vitalyabedik.github.io/socialite/',
+        githubUrl: 'https://github.com/vitalyabedik/socialite',
+        image: socialiteAppImage,
         description: `
         This website project is a possible representation of a social network like VKONTAKTE or Facebook. 
-        The project is in a development project.
         `,
         technologies: [
-            'React (class components)', 'Redux', 'Redux Thunk', 'TypeScript',
+            'React', 'Redux', 'Redux Thunk', 'TypeScript',
             'CSS modules', 'SCSS', 'React Router Dom 5', 'Redux Form', 'Reselect', 'Axios', 'REST API'
         ],
         badge: 'IT-Incubator'
