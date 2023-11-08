@@ -260,13 +260,12 @@ export const projects: ProjectType[] = [
         badge: 'Test task'
     },
     {
-        title: 'React Cheat Sheet',
-        demoUrl: 'https://vitalyabedik.github.io/Redev.React.1-project.React-cheatsheet/',
-        githubUrl: 'https://github.com/vitalyabedik/Redev.React.1-project.React-cheatsheet',
+        title: 'React Cheatsheet',
+        demoUrl: 'https://vitalyabedik.github.io/react-cheatsheet/',
+        githubUrl: 'https://github.com/vitalyabedik/react-cheatsheet',
         image: reactCheatSheepAppImage,
         description: `
         Comprehensive React cheatsheet for beginners.
-        Adaptive layout in progress.
         `,
         technologies: [
             'React', 'JavaScript', 'SCSS', 'React Router Dom 6', 'Ant Design', 'React Code Blocks'

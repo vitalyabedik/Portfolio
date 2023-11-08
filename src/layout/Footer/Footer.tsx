@@ -1,11 +1,11 @@
 import React from 'react';
+import {Fade} from 'react-awesome-reveal';
 
 import {Container} from '../../App.styled';
 import {FooterContacts, FooterContainer, FooterInfo, FooterWrapper,} from './Footer.styled';
 
 import {SocialContacts} from '../../components/SocialContacts';
 import {Title2} from '../../components';
-import {Fade} from 'react-awesome-reveal';
 
 export const Footer = () => {
     return (
