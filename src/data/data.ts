@@ -303,8 +303,8 @@ export const projects: ProjectType[] = [
     },
     {
         title: 'Beauty Shop',
-        demoUrl: 'https://vitalyabedik.github.io/Redev.HTML-CSS.Final-project/',
-        githubUrl: 'https://github.com/vitalyabedik/Redev.HTML-CSS.Final-project',
+        demoUrl: 'https://vitalyabedik.github.io/beauty-shop/',
+        githubUrl: 'https://github.com/vitalyabedik/beauty-shop',
         image: beautyShopAppImage,
         description: `
         The site is made according to the layout from Figma. 
