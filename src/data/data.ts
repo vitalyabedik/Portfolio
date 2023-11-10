@@ -243,8 +243,8 @@ export const projects: ProjectType[] = [
     },
     {
         title: 'Weather and Notes',
-        demoUrl: 'https://vitalyabedik.github.io/weather-test/',
-        githubUrl: 'https://github.com/vitalyabedik/weather-test',
+        demoUrl: 'https://vitalyabedik.github.io/weather-notes/',
+        githubUrl: 'https://github.com/vitalyabedik/weather-notes',
         image: weatherAppImage,
         description: `
         An application that displays the weather in populated areas 
