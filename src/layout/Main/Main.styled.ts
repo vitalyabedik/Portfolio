@@ -112,3 +112,13 @@ export const InfoText = styled.div`
     bottom: 0px;
   }
 `
+
+export const TextContact = styled.p`
+  &:hover {
+    color: #4bffa5
+  }
+  
+  a:hover {
+    color: #4bffa5
+  }
+`

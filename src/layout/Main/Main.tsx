@@ -3,7 +3,7 @@ import {Fade} from 'react-awesome-reveal';
 import ReactTypingEffect from 'react-typing-effect';
 
 import {Container} from '../../App.styled';
-import {Greeting, GreetingTitle, InfoText, MainContainer, MainInfo, MainWrapper} from './Main.styled';
+import {Greeting, GreetingTitle, InfoText, MainContainer, MainInfo, MainWrapper, TextContact} from './Main.styled';
 
 import {Span, Title1} from '../../components';
 
@@ -33,8 +33,8 @@ export const Main = () => {
                             </Greeting>
                             <InfoText>
                         <Fade direction={'down'} delay={300} triggerOnce={true}>
-                            <p>E: <a href="mailto:vitalya.bedik@gmail.com">vitalya.bedik@gmail.com</a></p>
-                            <p>T: <a href="tel:+375333599091">+375 (33) 359 90 91</a></p>
+                            <TextContact>E: <a href="mailto:vitalya.bedik@gmail.com">vitalya.bedik@gmail.com</a></TextContact>
+                            <TextContact>T: <a href="tel:+375333599091">+375 (33) 359 90 91</a></TextContact>
                         </Fade>
                             </InfoText>
                     </MainInfo>

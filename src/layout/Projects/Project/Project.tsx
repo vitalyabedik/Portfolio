@@ -32,7 +32,7 @@ export const Project: React.FC<ProjectType> = (props) => {
                     <ProjectInfo>
                         <ProjectHeader>
                             <Title3>{title}</Title3>
-                            <Badge>{badge}</Badge>
+                            {/*<Badge>{badge}</Badge>*/}
                         </ProjectHeader>
                         <ProjectStack>
                             {

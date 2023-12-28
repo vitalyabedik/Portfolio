@@ -13,6 +13,7 @@ import {
     SiRedux, SiReduxsaga,
     SiStyledcomponents,
     SiWebpack,
+    SiNextdotjs
 } from 'react-icons/si';
 
 import {
@@ -24,6 +25,8 @@ import {AiOutlineCloudServer} from 'react-icons/ai';
 
 import flashcardsImage from '../assets/images/flashcards.png'
 import weatherAppImage from '../assets/images/weather-app.png'
+import skytubeImage from '../assets/images/skytube.png'
+import hackerNewsImage from '../assets/images/hacker-news.png'
 import taskManagerAppImage from '../assets/images/task-manager-app.png'
 import socialiteAppImage from '../assets/images/socialite-app.png'
 import counterAppImage from '../assets/images/counter-app.png'
@@ -51,6 +54,16 @@ export type ProjectType = {
 
 export const skills: SkillType[] = [
     {
+        title: 'JavaScript',
+        icon: DiJavascript1,
+        color: '#ffcc33',
+    },
+    {
+        title: 'Next',
+        icon: SiNextdotjs ,
+        color: '#fff',
+    },
+    {
         title: 'React',
         icon: FaReact,
         color: '#149eca',
@@ -60,20 +73,15 @@ export const skills: SkillType[] = [
         icon: SiRedux,
         color: '#764abc',
     },
-    // {
-    //     title: 'Redux Saga',
-    //     icon: SiReduxsaga,
-    //     color: '#86d46b',
-    // },
+    {
+        title: 'Redux Saga',
+        icon: SiReduxsaga,
+        color: '#86d46b',
+    },
     {
         title: 'TypeScript',
         icon: TbBrandTypescript,
         color: '#3077c5',
-    },
-    {
-        title: 'JavaScript',
-        icon: DiJavascript1,
-        color: '#ffcc33',
     },
     {
         title: 'HTML',
@@ -130,11 +138,11 @@ export const skills: SkillType[] = [
         icon: SiReacthookform,
         color: '#ec5990',
     },
-    // {
-    //     title: 'React Query',
-    //     icon: SiReactquery,
-    //     color: '#ff4154',
-    // },
+    {
+        title: 'React Query',
+        icon: SiReactquery,
+        color: '#ff4154',
+    },
     // {
     //     title: 'Apollo',
     //     icon: SiApollographql,
@@ -193,7 +201,22 @@ export const projects: ProjectType[] = [
             'Radix UI', 'React Router Dom 6', 'React Hook Form',
             'Storybook',  'REST API', 'react-toastify', 'zod', 'vite'
         ],
-        badge: 'IT-Incubator'
+        badge: 'React'
+    },
+    {
+        title: 'Skytube',
+        demoUrl: 'https://skytube.vercel.app/',
+        githubUrl: 'https://github.com/vitalyabedik/skytube',
+        image: skytubeImage,
+        description: `
+       Skytube is a user-friendly web application that allows you to easily discover, watch, and interact with a wide variety of videos. 
+        `,
+        technologies: [
+            'React', 'Redux Toolkit', 'RTK Query', 'TypeScript', 'Ant Design',
+            'React Router Dom 6', 'React Hook Form',
+            'REST API', 'react-toastify', 'zod', 'vite', 'react-player'
+        ],
+        badge: 'React'
     },
     {
         title: 'Task Manager',
@@ -211,7 +234,7 @@ export const projects: ProjectType[] = [
             'Material UI', 'React Router Dom 6', 'React Hook Form',
             'Storybook', 'Jest', 'Axios', 'REST API',
         ],
-        badge: 'IT-Incubator'
+        badge: 'React'
     },
     {
         title: 'Socialite',
@@ -225,7 +248,20 @@ export const projects: ProjectType[] = [
             'React', 'Redux', 'Redux Thunk', 'TypeScript',
             'CSS modules', 'SCSS', 'React Router Dom 5', 'Redux Form', 'Reselect', 'Axios', 'REST API'
         ],
-        badge: 'IT-Incubator'
+        badge: 'React'
+    },
+    {
+        title: 'Hacker news',
+        demoUrl: 'https://github.com/vitalyabedik/hacker-news',
+        githubUrl: 'https://hacker-news-bice.vercel.app/',
+        image: hackerNewsImage,
+        description: `
+        Discover the latest in technology, startups, and programming on Hacker News. Join the vibrant community, engage in discussions, and stay informed with insightful articles and news. 
+        `,
+        technologies: [
+            'Next', 'React', 'React Query', 'TypeScript', 'Tailwind', 'REST API'
+        ],
+        badge: 'Next'
     },
     {
         title: 'NFT-creative-art',
@@ -239,7 +275,7 @@ export const projects: ProjectType[] = [
             'React', 'TypeScript', 'Styled components',
             'react-awesome-reveal', 'react-curved-text', 'react-scroll', 'eslint', 'prettier', 'stylelint',
         ],
-        badge: 'IT-Incubator'
+        badge: 'Layout'
     },
     {
         title: 'Weather and Notes',
@@ -257,36 +293,36 @@ export const projects: ProjectType[] = [
             'CSS modules', 'SCSS', 'Ant Design', 'Axios', 'moment-js', 'eslint-config-airbnb',
             'REST API',
         ],
-        badge: 'Test task'
+        badge: 'React'
     },
-    {
-        title: 'React Cheatsheet',
-        demoUrl: 'https://vitalyabedik.github.io/react-cheatsheet/',
-        githubUrl: 'https://github.com/vitalyabedik/react-cheatsheet',
-        image: reactCheatSheepAppImage,
-        description: `
-        Comprehensive React cheatsheet for beginners.
-        `,
-        technologies: [
-            'React', 'JavaScript', 'SCSS', 'React Router Dom 6', 'Ant Design', 'React Code Blocks'
-        ],
-        badge: 'Redev Education'
-    },
-    {
-        title: 'Counter',
-        demoUrl: 'https://vitalyabedik.github.io/Counter/',
-        githubUrl: 'https://github.com/vitalyabedik/Counter',
-        image: counterAppImage,
-        description: `
-        Counter is a test project which (to tell the truth) 
-        doesn't have a lot of practical use. It allows to do some settings which influence 
-        on the way how the counter works.
-        `,
-        technologies: [
-            'React', 'Redux', 'Redux Thunk', 'TypeScript', 'CSS modules'
-        ],
-        badge: 'IT-Incubator'
-    },
+    // {
+    //     title: 'React Cheatsheet',
+    //     demoUrl: 'https://vitalyabedik.github.io/react-cheatsheet/',
+    //     githubUrl: 'https://github.com/vitalyabedik/react-cheatsheet',
+    //     image: reactCheatSheepAppImage,
+    //     description: `
+    //     Comprehensive React cheatsheet for beginners.
+    //     `,
+    //     technologies: [
+    //         'React', 'JavaScript', 'SCSS', 'React Router Dom 6', 'Ant Design', 'React Code Blocks'
+    //     ],
+    //     badge: 'React'
+    // },
+    // {
+    //     title: 'Counter',
+    //     demoUrl: 'https://vitalyabedik.github.io/Counter/',
+    //     githubUrl: 'https://github.com/vitalyabedik/Counter',
+    //     image: counterAppImage,
+    //     description: `
+    //     Counter is a test project which (to tell the truth)
+    //     doesn't have a lot of practical use. It allows to do some settings which influence
+    //     on the way how the counter works.
+    //     `,
+    //     technologies: [
+    //         'React', 'Redux', 'Redux Thunk', 'TypeScript', 'CSS modules'
+    //     ],
+    //     badge: 'React'
+    // },
     {
         title: 'Plants',
         demoUrl: 'https://rolling-scopes-school.github.io/vitalyabedik-JSFEPRESCHOOL2022Q4/plants/',
@@ -299,7 +335,7 @@ export const projects: ProjectType[] = [
         technologies: [
             'SCSS'
         ],
-        badge: 'RS School'
+        badge: 'Layout'
     },
     {
         title: 'Beauty Shop',
@@ -313,6 +349,6 @@ export const projects: ProjectType[] = [
         technologies: [
           'SCSS'
         ],
-        badge: 'Redev Education'
+        badge: 'Layout'
     },
 ];

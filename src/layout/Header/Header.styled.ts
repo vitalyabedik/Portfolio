@@ -20,5 +20,4 @@ export const HeaderContainer = styled.div`
     width: 100%;
     justify-content: space-evenly;
   }
-  
 `
