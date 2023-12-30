@@ -252,8 +252,8 @@ export const projects: ProjectType[] = [
     },
     {
         title: 'Hacker news',
-        demoUrl: 'https://github.com/vitalyabedik/hacker-news',
-        githubUrl: 'https://hacker-news-bice.vercel.app/',
+        demoUrl: 'https://hacker-news-bice.vercel.app/',
+        githubUrl: 'https://github.com/vitalyabedik/hacker-news',
         image: hackerNewsImage,
         description: `
         Discover the latest in technology, startups, and programming on Hacker News. Join the vibrant community, engage in discussions, and stay informed with insightful articles and news. 
