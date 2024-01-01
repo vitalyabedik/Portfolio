@@ -38,11 +38,9 @@ export const NavLinkItem = styled(Link)`
 
   &.active {
     color: #4bffa5;
-    //opacity: .4;
   }
   
   &:hover {
-    //opacity: .65;
     color: #4bffa5
   }
 `
